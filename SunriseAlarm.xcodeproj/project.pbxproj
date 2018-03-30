@@ -275,11 +275,11 @@
 			children = (
 				9EED786F1AA0F03F00961BC2 /* Resources */,
 				77A857121E42FDAD00971367 /* Utils */,
-				9EED78781AA0F03F00961BC2 /* Images.xcassets */,
-				9EED78751AA0F03F00961BC2 /* Main.storyboard */,
 				9EED78991AA36C7900961BC2 /* AlarmAddEditViewController.swift */,
 				9EED78711AA0F03F00961BC2 /* AppDelegate.swift */,
+				9EED78781AA0F03F00961BC2 /* Images.xcassets */,
 				9E603F581BD7CA6600303E93 /* LabelEditViewController.swift */,
+				9EED78751AA0F03F00961BC2 /* Main.storyboard */,
 				9EEEC58B1BC641BF00459CF7 /* MainAlarmViewController.swift */,
 				9E16062B1C62358F009B2407 /* MediaViewController.swift */,
 				9E1F30721C49128000C66F79 /* Scheduler.swift */,
