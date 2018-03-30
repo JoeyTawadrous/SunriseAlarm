@@ -1,0 +1,70 @@
+{
+    "device_frame_version": "latest",
+    "default": {
+        "keyword": {
+            "font": "./arial.ttf"
+        },
+        "title": {
+            "font": "./arial.ttf",
+            "color": "#FFFFFF"
+        },
+        "background": "./background.jpeg",
+        "padding": 60
+    },
+
+
+    "data": [{
+        "filter": "./iPhone 8-Alarms",
+        "title": {
+            "text": "All alarms will trigger 5-15 minutes earlier \nthan the time they are scheduled for ;)"
+        }
+    },
+    {
+        "filter": "./iPhone 8-Add",
+        "title": {
+            "text": "Set a time & ensure you're always on time!"
+        }
+    },
+    {
+        "filter": "./iPhone 8-Sounds",
+        "title": {
+            "text": "Choose from a variety of alarm sounds"
+        }
+    },
+    {
+        "filter": "./iPhone 8 Plus-Alarms",
+        "title": {
+            "text": "All alarms will trigger 5-15 minutes earlier \nthan the time they are scheduled for ;)"
+        }
+    },
+    {
+        "filter": "./iPhone 8 Plus-Add",
+        "title": {
+            "text": "Set a time & ensure you're always on time!"
+        }
+    },
+    {
+        "filter": "./iPhone 8 Plus-Sounds",
+        "title": {
+            "text": "Choose from a variety of alarm sounds"
+        }
+    },
+    {
+        "filter": "./iPad Pro (12.9-inch)-Alarms",
+        "title": {
+            "text": "All alarms will trigger 5-15 minutes earlier \nthan the time they are scheduled for ;)"
+        }
+    },
+    {
+        "filter": "./iPad Pro (12.9-inch)-Add",
+        "title": {
+            "text": "Set a time & ensure you're always on time!"
+        }
+    },
+    {
+        "filter": "./iPad Pro (12.9-inch)-Sounds",
+        "title": {
+            "text": "Choose from a variety of alarm sounds"
+        }
+    }]
+}
