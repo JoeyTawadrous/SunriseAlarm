@@ -5,6 +5,8 @@ Store Link: https://itunes.apple.com/us/app/sunrise-alarm-surprise-clock/id13603
 <img alt="App Logo" width="200px" src="readme_assets/logo.jpg">
 
 
+# About
+
 All alarms will trigger 5-15 minutes earlier than the time they are scheduled for ;)
 
 Ensuring you're never 10 minutes late again!
