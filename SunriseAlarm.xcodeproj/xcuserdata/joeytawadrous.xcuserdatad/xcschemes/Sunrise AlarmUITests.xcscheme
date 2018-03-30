@@ -7,17 +7,17 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "YES"
+            buildForTesting = "NO"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
+            buildForProfiling = "NO"
             buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9EED786B1AA0F03F00961BC2"
-               BuildableName = "Sunrise Alarm.app"
-               BlueprintName = "Sunrise Alarm"
-               ReferencedContainer = "container:Sunrise Alarm.xcodeproj">
+               BuildableName = "SunriseAlarm.app"
+               BlueprintName = "SunriseAlarm"
+               ReferencedContainer = "container:SunriseAlarm.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,27 +26,16 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EED78801AA0F03F00961BC2"
-               BuildableName = "Sunrise AlarmTests.xctest"
-               BlueprintName = "Sunrise AlarmTests"
-               ReferencedContainer = "container:Sunrise Alarm.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "52814D09205C1946008A68A7"
-               BuildableName = "Sunrise AlarmUITests.xctest"
-               BlueprintName = "Sunrise AlarmUITests"
-               ReferencedContainer = "container:Sunrise Alarm.xcodeproj">
+               BuildableName = "SunriseAlarmUITests.xctest"
+               BlueprintName = "SunriseAlarmUITests"
+               ReferencedContainer = "container:SunriseAlarm.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EED786B1AA0F03F00961BC2"
-            BuildableName = "Sunrise Alarm.app"
-            BlueprintName = "Sunrise Alarm"
-            ReferencedContainer = "container:Sunrise Alarm.xcodeproj">
+            BuildableName = "SunriseAlarm.app"
+            BlueprintName = "SunriseAlarm"
+            ReferencedContainer = "container:SunriseAlarm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,23 +55,21 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EED786B1AA0F03F00961BC2"
-            BuildableName = "Sunrise Alarm.app"
-            BlueprintName = "Sunrise Alarm"
-            ReferencedContainer = "container:Sunrise Alarm.xcodeproj">
+            BuildableName = "SunriseAlarm.app"
+            BlueprintName = "SunriseAlarm"
+            ReferencedContainer = "container:SunriseAlarm.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -92,16 +79,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EED786B1AA0F03F00961BC2"
-            BuildableName = "Sunrise Alarm.app"
-            BlueprintName = "Sunrise Alarm"
-            ReferencedContainer = "container:Sunrise Alarm.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
