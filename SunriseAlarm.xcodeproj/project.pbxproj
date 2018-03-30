@@ -252,8 +252,8 @@
 		9EED78631AA0F03F00961BC2 = {
 			isa = PBXGroup;
 			children = (
-				9EED786E1AA0F03F00961BC2 /* Alarm */,
 				98E9F584A00D1BB95AEDA546 /* Frameworks */,
+				9EED786E1AA0F03F00961BC2 /* SunriseAlarm */,
 				C2C9FAEC40B34BCF3F59FD3A /* Pods */,
 				9EED786D1AA0F03F00961BC2 /* Products */,
 				52814D0B205C1946008A68A7 /* Sunrise AlarmUITests */,
@@ -270,7 +270,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EED786E1AA0F03F00961BC2 /* Alarm */ = {
+		9EED786E1AA0F03F00961BC2 /* SunriseAlarm */ = {
 			isa = PBXGroup;
 			children = (
 				9EED786F1AA0F03F00961BC2 /* Resources */,
@@ -285,7 +285,7 @@
 				9E1F30721C49128000C66F79 /* Scheduler.swift */,
 				9E9BEE061BCF8FF8000CF364 /* WeekdaysViewController.swift */,
 			);
-			path = Alarm;
+			path = SunriseAlarm;
 			sourceTree = "<group>";
 		};
 		9EED786F1AA0F03F00961BC2 /* Resources */ = {
