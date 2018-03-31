@@ -25,5 +25,8 @@ Ensuring you're never 10 minutes late again!
 - Ready to watch the latest Game of Thrones? We have you covered. Set an alarm and rest assured that you will be notified well before the show starts!
 
 
+<img alt="Screenshot" width="205px" src="readme_assets/1.png"><img alt="Screenshot2" width="205px" src="readme_assets/2.png"><img alt="Screenshot3" width="205px" src="readme_assets/3.png">
+
+
 # Tags
 alarm,activity,bed,bedtime,calm,clock,cycle,headspace,monitor,morning,nap,rise,sleep,time,tracker,up

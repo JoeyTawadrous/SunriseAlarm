@@ -1,5 +1,7 @@
 import UIKit
 import MediaPlayer
+import AVFoundation
+
 
 class MediaViewController: UITableViewController, MPMediaPickerControllerDelegate  {
     
@@ -7,6 +9,7 @@ class MediaViewController: UITableViewController, MPMediaPickerControllerDelegat
     var mediaItem: MPMediaItem?
     var mediaLabel: String!
     var mediaID: String!
+	var player: AVAudioPlayer?
 
 	
 	override func viewDidLoad() {
@@ -20,7 +23,6 @@ class MediaViewController: UITableViewController, MPMediaPickerControllerDelegat
 	override var prefersStatusBarHidden: Bool {
 		return true
 	}
-	
 	
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -125,6 +127,7 @@ class MediaViewController: UITableViewController, MPMediaPickerControllerDelegat
             let cell = tableView.cellForRow(at: indexPath)
             cell?.accessoryType = UITableViewCellAccessoryType.checkmark
             mediaLabel = cell?.textLabel?.text!
+			playSound(soundName: (cell?.textLabel?.text!)!)
             cell?.setSelected(true, animated: true)
             cell?.setSelected(false, animated: true)
             let cells = tableView.visibleCells
@@ -136,6 +139,29 @@ class MediaViewController: UITableViewController, MPMediaPickerControllerDelegat
             }
 //        }
     }
+	
+	
+	func playSound(soundName: String) {
+		guard let url = Bundle.main.url(forResource: soundName, withExtension: "mp3") else { return }
+		
+		do {
+			try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+			try AVAudioSession.sharedInstance().setActive(true)
+			
+			/* The following line is required for the player to work on iOS 11. Change the file type accordingly*/
+			player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+			
+			/* iOS 10 and earlier require the following line:
+			player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3) */
+			
+			guard let player = player else { return }
+			
+			player.play()
+			
+		} catch let error {
+			print(error.localizedDescription)
+		}
+	}
     
     
     //MPMediaPickerControllerDelegate
