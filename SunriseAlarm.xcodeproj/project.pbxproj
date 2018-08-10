@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0F7A671A67D801F1F526E67B /* Pods_SunriseAlarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427257CD547760A302088F21 /* Pods_SunriseAlarmTests.framework */; };
 		524E3022211DEEFF009F7055 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E3021211DEEFF009F7055 /* Settings.swift */; };
+		524E3031211E2D11009F7055 /* GothamProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524E302D211E2D03009F7055 /* GothamProMedium.ttf */; };
+		524E3032211E2D11009F7055 /* GothamProBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524E302E211E2D06009F7055 /* GothamProBlack.ttf */; };
+		524E3033211E2D11009F7055 /* GothamProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524E302F211E2D07009F7055 /* GothamProRegular.ttf */; };
+		524E3034211E2D11009F7055 /* GothamProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524E3030211E2D0B009F7055 /* GothamProBold.ttf */; };
 		52814CF720584D33008A68A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52814CF620584D33008A68A7 /* LaunchScreen.xib */; };
 		52814CF9205B0F1D008A68A7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52814CF8205B0F1D008A68A7 /* Extensions.swift */; };
 		52814CFB205B1759008A68A7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52814CFA205B1759008A68A7 /* Utils.swift */; };
@@ -76,13 +80,13 @@
 		427257CD547760A302088F21 /* Pods_SunriseAlarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunriseAlarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		438F227719CFB0B54F66ED36 /* Pods_SunriseAlarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunriseAlarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		524E3021211DEEFF009F7055 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = SunriseAlarm/Settings.swift; sourceTree = SOURCE_ROOT; };
+		524E302D211E2D03009F7055 /* GothamProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProMedium.ttf; sourceTree = "<group>"; };
+		524E302E211E2D06009F7055 /* GothamProBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProBlack.ttf; sourceTree = "<group>"; };
+		524E302F211E2D07009F7055 /* GothamProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProRegular.ttf; sourceTree = "<group>"; };
+		524E3030211E2D0B009F7055 /* GothamProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProBold.ttf; sourceTree = "<group>"; };
 		52814CF620584D33008A68A7 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		52814CF8205B0F1D008A68A7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		52814CFA205B1759008A68A7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		52814CFD205BFDC2008A68A7 /* GothamProBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProBlack.ttf; sourceTree = "<group>"; };
-		52814CFE205BFDC7008A68A7 /* GothamProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProMedium.ttf; sourceTree = "<group>"; };
-		52814CFF205BFDCA008A68A7 /* GothamProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProBold.ttf; sourceTree = "<group>"; };
-		52814D00205BFDCC008A68A7 /* GothamProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProRegular.ttf; sourceTree = "<group>"; };
 		52814D01205C17D2008A68A7 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		52814D0A205C1946008A68A7 /* SunriseAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52814D0C205C1946008A68A7 /* Sunrise_AlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunrise_AlarmUITests.swift; sourceTree = "<group>"; };
@@ -162,13 +166,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52814CFC205BFDB4008A68A7 /* Fonts */ = {
+		524E3035211E2D15009F7055 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				52814CFD205BFDC2008A68A7 /* GothamProBlack.ttf */,
-				52814CFF205BFDCA008A68A7 /* GothamProBold.ttf */,
-				52814CFE205BFDC7008A68A7 /* GothamProMedium.ttf */,
-				52814D00205BFDCC008A68A7 /* GothamProRegular.ttf */,
+				524E302E211E2D06009F7055 /* GothamProBlack.ttf */,
+				524E3030211E2D0B009F7055 /* GothamProBold.ttf */,
+				524E302D211E2D03009F7055 /* GothamProMedium.ttf */,
+				524E302F211E2D07009F7055 /* GothamProRegular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -302,8 +306,8 @@
 		9EED786F1AA0F03F00961BC2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				524E3035211E2D15009F7055 /* Fonts */,
 				7732E60F1E37594300C9D9A2 /* Core */,
-				52814CFC205BFDB4008A68A7 /* Fonts */,
 				52AF6D9B2056D92F00696CFF /* Sounds */,
 				9EED78701AA0F03F00961BC2 /* Info.plist */,
 				52814CF620584D33008A68A7 /* LaunchScreen.xib */,
@@ -456,14 +460,18 @@
 				52AF6DB92056D9B900696CFF /* Trumpet.mp3 in Resources */,
 				52AF6DB12056D9B900696CFF /* Police.mp3 in Resources */,
 				9E92445B1C690A8D00724DFA /* Tickle.mp3 in Resources */,
+				524E3032211E2D11009F7055 /* GothamProBlack.ttf in Resources */,
 				52AF6DB22056D9B900696CFF /* Wake.mp3 in Resources */,
 				52AF6D9D2056D97E00696CFF /* Space.mp3 in Resources */,
 				52AF6DB42056D9B900696CFF /* Lollypop.mp3 in Resources */,
 				52AF6DB02056D9B900696CFF /* Oldie.mp3 in Resources */,
 				9EED78771AA0F03F00961BC2 /* Main.storyboard in Resources */,
+				524E3034211E2D11009F7055 /* GothamProBold.ttf in Resources */,
+				524E3033211E2D11009F7055 /* GothamProRegular.ttf in Resources */,
 				52814CF720584D33008A68A7 /* LaunchScreen.xib in Resources */,
 				9E3B062F1BB8347000453456 /* Bell.mp3 in Resources */,
 				52AF6DBC2056D9B900696CFF /* Transmission.mp3 in Resources */,
+				524E3031211E2D11009F7055 /* GothamProMedium.ttf in Resources */,
 				52AF6DBD2056D9B900696CFF /* Chime.mp3 in Resources */,
 				52AF6DB72056D9B900696CFF /* Ping.mp3 in Resources */,
 				52AF6DBB2056D9B900696CFF /* Party.mp3 in Resources */,
