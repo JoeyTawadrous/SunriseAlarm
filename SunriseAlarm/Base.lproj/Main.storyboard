@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mRm-tb-2g0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mRm-tb-2g0">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Arial.ttf">
-            <string>ArialMT</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="gbY-cu-bM4">
@@ -33,7 +28,7 @@
         <!--Alarm-->
         <scene sceneID="1K5-R3-JmD">
             <objects>
-                <tableViewController id="TFz-Z9-qBx" customClass="MainAlarmViewController" customModule="Sunrise_Alarm" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="TFz-Z9-qBx" customClass="MainAlarmViewController" customModule="SunriseAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="bQK-Ff-qGY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,7 +69,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Alarm" id="dQi-iQ-p46">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="aSU-Te-jrO">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="aSU-Te-jrO">
                             <connections>
                                 <segue destination="XKb-lA-7Db" kind="presentation" identifier="addSegue" id="Okr-Zd-u6D"/>
                             </connections>
@@ -91,7 +86,7 @@
         <!--Add Alarm-->
         <scene sceneID="KWb-0J-Vuz">
             <objects>
-                <viewController id="Hc0-91-jHo" customClass="AlarmAddEditViewController" customModule="Sunrise_Alarm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Hc0-91-jHo" customClass="AlarmAddEditViewController" customModule="SunriseAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UAQ-6d-GVG"/>
                         <viewControllerLayoutGuide type="bottom" id="kqQ-aI-t82"/>
@@ -165,7 +160,7 @@
         <!--Alarm Days-->
         <scene sceneID="IBS-M8-TGP">
             <objects>
-                <tableViewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="MmK-Sj-jZ1" customClass="WeekdaysViewController" customModule="Sunrise_Alarm" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="MmK-Sj-jZ1" customClass="WeekdaysViewController" customModule="SunriseAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="6An-0O-Yah">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,7 +309,7 @@
         <!--Alarm Sound-->
         <scene sceneID="PpJ-e3-tlu">
             <objects>
-                <tableViewController id="QpM-GR-Mpm" customClass="MediaViewController" customModule="Sunrise_Alarm" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="QpM-GR-Mpm" customClass="MediaViewController" customModule="SunriseAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="lZ9-bY-kKX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -348,7 +343,7 @@
         <!--Alarm Label-->
         <scene sceneID="ck0-2C-80R">
             <objects>
-                <viewController id="Eno-9x-e90" customClass="LabelEditViewController" customModule="Sunrise_Alarm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Eno-9x-e90" customClass="LabelEditViewController" customModule="SunriseAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1cM-HH-WjN"/>
                         <viewControllerLayoutGuide type="bottom" id="msd-Ue-IZj"/>

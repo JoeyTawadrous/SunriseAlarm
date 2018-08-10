@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/joeytawadrous/Google Drive/Projects/SunriseAlarm/src_ios/SunriseAlarm.xcodeproj">
+      location = "group:SunriseAlarm.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

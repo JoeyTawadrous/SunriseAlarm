@@ -19,14 +19,6 @@ class MainAlarmViewController: UITableViewController {
         super.viewWillAppear(animated)
         alarmModel = Alarms()
         tableView.reloadData()
-		
-        // Edit button
-        if alarmModel.count != 0 {
-            self.navigationItem.leftBarButtonItem = editButtonItem
-        }
-        else {
-            self.navigationItem.leftBarButtonItem = nil
-        }
     }
     
     override func didReceiveMemoryWarning() {
