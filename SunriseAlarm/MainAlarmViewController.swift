@@ -1,7 +1,10 @@
 import UIKit
+import FontAwesome_swift
 
 
 class MainAlarmViewController: UITableViewController {
+	
+	@IBOutlet var menuButton: UIBarButtonItem!
    
     var alarmDelegate: AlarmApplicationDelegate = AppDelegate()
     var alarmScheduler: AlarmSchedulerDelegate = Scheduler()
@@ -13,6 +16,12 @@ class MainAlarmViewController: UITableViewController {
         alarmScheduler.checkNotification()
         tableView.allowsSelectionDuringEditing = true
 		Utils.insertGradientIntoTableView(viewController: self, tableView: tableView)
+		
+		// Nav bar
+		let attributes = [NSAttributedStringKey.font: UIFont.fontAwesome(ofSize: 21)]
+		menuButton.setTitleTextAttributes(attributes, for: .selected)
+		menuButton.setTitleTextAttributes(attributes, for: .normal)
+		menuButton.title = String.fontAwesomeIcon(name: .bars)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -27,6 +36,13 @@ class MainAlarmViewController: UITableViewController {
 	
 	override var prefersStatusBarHidden: Bool {
 		return true
+	}
+	
+	
+	@IBAction func menuButtonPressed(_ sender: AnyObject) {
+		let storyBoard : UIStoryboard = UIStoryboard(name: Constants.Common.MAIN_STORYBOARD, bundle:nil)
+		let settingsView = storyBoard.instantiateViewController(withIdentifier: Constants.Views.SETTINGS) as! Settings
+		self.show(settingsView as UIViewController, sender: settingsView)
 	}
 	
 	
@@ -99,7 +115,7 @@ class MainAlarmViewController: UITableViewController {
             cell!.textLabel?.alpha = 1.0
             cell!.detailTextLabel?.alpha = 1.0
             switchButton.setOn(true, animated: false)
-			switchButton.onTintColor = UIColor(hex: Colors.MAIN_COLOR_2)
+			switchButton.onTintColor = UIColor(hex: Constants.Colors.MAIN_COLOR_2)
         }
 		else {
             cell!.textLabel?.alpha = 0.5
@@ -134,9 +150,6 @@ class MainAlarmViewController: UITableViewController {
                 if sw.tag > index {
                     sw.tag -= 1
                 }
-            }
-            if alarmModel.count == 0 {
-                self.navigationItem.leftBarButtonItem = nil
             }
             
             // Delete the row from the data source

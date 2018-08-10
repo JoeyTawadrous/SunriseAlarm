@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Sunrise_AlarmVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Sunrise_AlarmVersionString[];
+FOUNDATION_EXPORT double Pods_SunriseAlarmTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SunriseAlarmTestsVersionString[];
 

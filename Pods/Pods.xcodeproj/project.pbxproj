@@ -7,29 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07DED70142A1751A8F01706A719FC439 /* Pods-SunriseAlarmTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B5391CA059DA3C90B20A77651D3012 /* Pods-SunriseAlarmTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		099C91C5FF6416AACCBB5EB9942A8939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
 		24065029085002EAC70A3422A7D39EC1 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE373142F5DFC3A508DDD33DACBEA1C /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AE0F58A0988D92438C1448C861A154C /* FontAwesomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C25093DD257A0CA9F4C8F97B30D524 /* FontAwesomeImageView.swift */; };
-		344BCA654E384195780431E0206B524D /* Pods-Sunrise Alarm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BD2E70BC5581C0646AEE217A009F1E /* Pods-Sunrise Alarm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41FAD1CDCD9272883A6CF33FE8FF44E0 /* FontAwesomeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931776CCA72F625F5B327036CA4A67FB /* FontAwesomeSegmentedControl.swift */; };
+		468E83F4C7104097FA3A4A94583C2544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
 		522BEF444AEAA78D1747B62ED49C688E /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159CE9424F183B872692BF3B58925F1 /* FontAwesomeView.swift */; };
 		589D19F8FC8F1E9D6360D950D26A7138 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277F58C4CE90B629E8855663975434A5 /* FontAwesome.swift */; };
-		59BB7C15DE2EFEFDE268E3D2BE58B161 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A01A09FE630011E165457CEB32988C89 /* FontAwesome.swift.bundle */; };
+		59BB7C15DE2EFEFDE268E3D2BE58B161 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC9D024E059F3258DB45BABB34EBC41E /* FontAwesome.swift.bundle */; };
 		5AD3E160E28F5EFC4D17A8668CA322BD /* FontAwesomeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24958FDD1F26C5C6B7197265F15D42 /* FontAwesomeBarButtonItem.swift */; };
 		65D01C54FCF24BF6E6FBCD49F6E7CCB1 /* FontAwesomeTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B6E8C7DCCBEBD6AA2BF474097B1E1 /* FontAwesomeTabBarItem.swift */; };
 		684E126B8E890761BBB1A4EB590EA1F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
-		804DCF69D839997AD59773C648C9D781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
-		AE723DD2D8320176CBD4DC9E60688860 /* Pods-Sunrise Alarm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BB95904A99BEAD325B96855512CF8F /* Pods-Sunrise Alarm-dummy.m */; };
+		7EC68382FEB6E21A99473B68B0F27A7F /* Pods-SunriseAlarmUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D25AF07D086213051392B9CFB7B86ACD /* Pods-SunriseAlarmUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CF9A926E4EEE5C5C22D27B69897C1F9 /* Pods-SunriseAlarmUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2402D60510EF5B448B3E78F8CEB7A3 /* Pods-SunriseAlarmUITests-dummy.m */; };
 		BA158509B4673EB6F8D0D12961169AB1 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597809368FF8CE2600FB5708DF3863A /* Enum.swift */; };
+		C0D307125D959927AB5164B7F31972B3 /* Pods-SunriseAlarm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F63AF62A01639CC2B8FE17072044C5 /* Pods-SunriseAlarm-dummy.m */; };
 		C3079113A27F987B6889C2E9C05A10DD /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 842F1ACF894FC5CABE6964020A020502 /* FontAwesome.otf */; };
 		C4EDDFD00880AD17F1BB7D66948F1D21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
 		C879A43B7C8CC16E986D40441C2F2878 /* FontAwesomeImageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB134623B0D045C1315F65484C339F19 /* FontAwesomeImageRepresentable.swift */; };
+		C99969B0F1432DFEC55FB3AEF59FE30A /* Pods-SunriseAlarmTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 953F5F49A3D7DB3F26A2547D0B5F6C13 /* Pods-SunriseAlarmTests-dummy.m */; };
 		CBD91B03AC387775166237F805EABC3A /* FontAwesomeStateRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EC507C2E1EBD8E5BB9A0C2729171C8 /* FontAwesomeStateRequirement.swift */; };
+		D2066406560B4F0536BC7B2C8C6C1B04 /* Pods-SunriseAlarm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68522D1765E9E42D6C95392CF9BC388F /* Pods-SunriseAlarm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC2CACA22AE100EB261D377EC6FBE3C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */; };
+		EBCF99CE40A473B6F123ABA7E9819C1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
 		FB64A64BD408EE7BBD70A4B048315C7D /* FontAwesomeTextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9138254175DE9BA029FC4F4B03463C8 /* FontAwesomeTextRepresentable.swift */; };
 		FD8C615CEC6F1EBDB63BF3240583D2F3 /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E48BDC792F68A48ECD7102063EABCE78 /* FontAwesome.swift-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2F1A9E7DE5910A54DA224BC3F66775D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194F7A98C4A9C63C619C624FE4EF291E;
+			remoteInfo = "Pods-SunriseAlarm";
+		};
 		A1E7ADA9414728070F39599079B02152 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -37,54 +50,99 @@
 			remoteGlobalIDString = 6991F49AED797519343B1F4591001691;
 			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
 		};
-		B25AA4A57EA502B55CC76938EEE9B563 /* PBXContainerItemProxy */ = {
+		C4467B4FC6732624E0CB8AB3ECFF49D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CD11672B6619C297B6AEE3DFB8213C59;
 			remoteInfo = FontAwesome.swift;
 		};
+		E560DFAB597206EA0CAE028F3AD0C0E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194F7A98C4A9C63C619C624FE4EF291E;
+			remoteInfo = "Pods-SunriseAlarm";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03FF64E07A07850AA4568C47E9333DD5 /* Pods-SunriseAlarm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SunriseAlarm.modulemap"; sourceTree = "<group>"; };
 		0597809368FF8CE2600FB5708DF3863A /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
-		08CAE39FD0255A1537CBBF9CC29D178D /* Pods-Sunrise Alarm-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sunrise Alarm-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F41CCDFF0C1BE5BA2897054061D27FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F63AF62A01639CC2B8FE17072044C5 /* Pods-SunriseAlarm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunriseAlarm-dummy.m"; sourceTree = "<group>"; };
 		1159CE9424F183B872692BF3B58925F1 /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
-		14138C51681F16A19C0D138D6CACB7DA /* Pods-Sunrise Alarm-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sunrise Alarm-resources.sh"; sourceTree = "<group>"; };
+		23460F286C1CA645C51660D9566ADA56 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesome_swift.framework; path = FontAwesome.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A7FCD0F84706B6626C8564A58A3E9B /* Pods-SunriseAlarmTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SunriseAlarmTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23C34A4C1B3BFA71D8E07F2E53A1608C /* Pods-SunriseAlarm-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunriseAlarm-resources.sh"; sourceTree = "<group>"; };
 		25EC507C2E1EBD8E5BB9A0C2729171C8 /* FontAwesomeStateRequirement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeStateRequirement.swift; path = FontAwesome/FontAwesomeStateRequirement.swift; sourceTree = "<group>"; };
 		277F58C4CE90B629E8855663975434A5 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
 		27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2E24958FDD1F26C5C6B7197265F15D42 /* FontAwesomeBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeBarButtonItem.swift; path = FontAwesome/FontAwesomeBarButtonItem.swift; sourceTree = "<group>"; };
-		35BD2E70BC5581C0646AEE217A009F1E /* Pods-Sunrise Alarm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sunrise Alarm-umbrella.h"; sourceTree = "<group>"; };
-		41D23BDD63AFB7B9243A441037320045 /* Pods-Sunrise Alarm-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sunrise Alarm-frameworks.sh"; sourceTree = "<group>"; };
-		43E601933F1B2D354EEB47577C1A2BB1 /* Pods-Sunrise Alarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sunrise Alarm.release.xcconfig"; sourceTree = "<group>"; };
+		3447E0F099A60CFC0BCFD08EB626DE4A /* Pods-SunriseAlarm-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SunriseAlarm-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37F76576FC3E5BCCEE65879F6241A35E /* Pods-SunriseAlarmTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunriseAlarmTests-frameworks.sh"; sourceTree = "<group>"; };
+		3AC0D729241175E0879534019DD99FFC /* Pods_SunriseAlarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SunriseAlarmTests.framework; path = "Pods-SunriseAlarmTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2402D60510EF5B448B3E78F8CEB7A3 /* Pods-SunriseAlarmUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunriseAlarmUITests-dummy.m"; sourceTree = "<group>"; };
+		45C96CBB5BD8B823F9466DE7DCBC72F9 /* Pods-SunriseAlarmTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunriseAlarmTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BB65F0E6B7FCD617BBECAD41225D8C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BD9A3FEB33FB3DE6A1DDBA16C02FA06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C0B6E8C7DCCBEBD6AA2BF474097B1E1 /* FontAwesomeTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTabBarItem.swift; path = FontAwesome/FontAwesomeTabBarItem.swift; sourceTree = "<group>"; };
+		514136BDB796E0291122035162526C9C /* Pods-SunriseAlarmUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SunriseAlarmUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5DBE1ABD8E0781B2F26EA4E5F6B85AE9 /* ResourceBundle-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		606F3013A4FF62BEFE7288FBE52B56D8 /* Pods-SunriseAlarm-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunriseAlarm-frameworks.sh"; sourceTree = "<group>"; };
+		68522D1765E9E42D6C95392CF9BC388F /* Pods-SunriseAlarm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunriseAlarm-umbrella.h"; sourceTree = "<group>"; };
+		6E381A1B5334B44848DDAEEB0DE254CC /* Pods-SunriseAlarmUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunriseAlarmUITests-resources.sh"; sourceTree = "<group>"; };
+		83193EE0EA2A526F146F54CBE8647A30 /* Pods-SunriseAlarmUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunriseAlarmUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83B5391CA059DA3C90B20A77651D3012 /* Pods-SunriseAlarmTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunriseAlarmTests-umbrella.h"; sourceTree = "<group>"; };
 		842F1ACF894FC5CABE6964020A020502 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesome/FontAwesome.otf; sourceTree = "<group>"; };
-		8784E33E5EADFF728D84330797256063 /* Pods-Sunrise Alarm-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sunrise Alarm-acknowledgements.plist"; sourceTree = "<group>"; };
-		89090331FC624B4D86B56A96875BFBA9 /* Pods-Sunrise Alarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sunrise Alarm.debug.xcconfig"; sourceTree = "<group>"; };
-		8CD52A3D3CC9B2E57B5F111C9A352845 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesome_swift.framework; path = FontAwesome.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BE9B32FE638E880888326156997489 /* Pods-SunriseAlarmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunriseAlarmTests.debug.xcconfig"; sourceTree = "<group>"; };
 		931776CCA72F625F5B327036CA4A67FB /* FontAwesomeSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeSegmentedControl.swift; path = FontAwesome/FontAwesomeSegmentedControl.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		977A2D97FE3C5A975DFBEE569B003DD4 /* Pods-Sunrise Alarm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sunrise Alarm.modulemap"; sourceTree = "<group>"; };
-		98BB95904A99BEAD325B96855512CF8F /* Pods-Sunrise Alarm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sunrise Alarm-dummy.m"; sourceTree = "<group>"; };
-		A01A09FE630011E165457CEB32988C89 /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FontAwesome.swift.bundle; path = "FontAwesome.swift-FontAwesome.swift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		953F5F49A3D7DB3F26A2547D0B5F6C13 /* Pods-SunriseAlarmTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunriseAlarmTests-dummy.m"; sourceTree = "<group>"; };
+		A69071686EE9B6E6750AE1E598E4BB0D /* Pods-SunriseAlarmTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunriseAlarmTests-resources.sh"; sourceTree = "<group>"; };
 		A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		ACE373142F5DFC3A508DDD33DACBEA1C /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
-		AE51B05910B9B47B4AD42F28481BD887 /* Pods_Sunrise_Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sunrise_Alarm.framework; path = "Pods-Sunrise Alarm.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08255B3612683FAA5410F5C26EA7E90 /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		B3849F4A5EBA609EDEC9AAC90C426247 /* Pods-SunriseAlarm-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunriseAlarm-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBCAFDDB6D3AB43C1C14244B9A79C243 /* Pods-SunriseAlarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunriseAlarm.release.xcconfig"; sourceTree = "<group>"; };
+		BC9D024E059F3258DB45BABB34EBC41E /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FontAwesome.swift.bundle; path = "FontAwesome.swift-FontAwesome.swift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1740DDF4A440D2C801078F90E7D2F1 /* Pods_SunriseAlarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SunriseAlarm.framework; path = "Pods-SunriseAlarm.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21AE47BDB2BCBD0F414093862490E4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B1C3309CABDC1C3D162BB83A49CC50 /* Pods-SunriseAlarmTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SunriseAlarmTests.modulemap"; sourceTree = "<group>"; };
 		C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		C9352B29E1BE25DA4A617D7424A32B7A /* Pods-SunriseAlarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunriseAlarmTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC5F81181F517944CB8E28A710880EEA /* Pods-SunriseAlarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunriseAlarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE149E4B6316DC7731C1DF0BF21ECE25 /* Pods_SunriseAlarmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SunriseAlarmUITests.framework; path = "Pods-SunriseAlarmUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25AF07D086213051392B9CFB7B86ACD /* Pods-SunriseAlarmUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunriseAlarmUITests-umbrella.h"; sourceTree = "<group>"; };
 		D9138254175DE9BA029FC4F4B03463C8 /* FontAwesomeTextRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTextRepresentable.swift; path = FontAwesome/FontAwesomeTextRepresentable.swift; sourceTree = "<group>"; };
+		DF16F4BBF9767DA44195DC09DCA90BCD /* Pods-SunriseAlarmUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunriseAlarmUITests-frameworks.sh"; sourceTree = "<group>"; };
 		E41107ED255B2A9A48DE6215BFFF5809 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
 		E48BDC792F68A48ECD7102063EABCE78 /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
 		EB134623B0D045C1315F65484C339F19 /* FontAwesomeImageRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageRepresentable.swift; path = FontAwesome/FontAwesomeImageRepresentable.swift; sourceTree = "<group>"; };
+		ED0286B326277A11F9D9F46F01E06093 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3C25093DD257A0CA9F4C8F97B30D524 /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageView.swift; path = FontAwesome/FontAwesomeImageView.swift; sourceTree = "<group>"; };
+		F6FC9A2149C5D1995EB5936DCC283E79 /* Pods-SunriseAlarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunriseAlarm.debug.xcconfig"; sourceTree = "<group>"; };
 		F892B1243F47643E2253E9C07A847F2E /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
+		FA8523272C314876D203F724E2955EBB /* Pods-SunriseAlarmUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SunriseAlarmUITests.modulemap"; sourceTree = "<group>"; };
+		FE997DB929569BF4A4E8FC1B041526AF /* Pods-SunriseAlarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunriseAlarmUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		02086AC726F9FC5916CCABD9962F638C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCF99CE40A473B6F123ABA7E9819C1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E72CCA7F67067BAD7B59974E0A844E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099C91C5FF6416AACCBB5EB9942A8939 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6384E4C1DBDFE6DB82E1EAD08B3F044A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,14 +153,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A857F00BA8D0BE74139E68CF585BABEC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				804DCF69D839997AD59773C648C9D781 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D4E54942A2F6AE6BC8FF8B5031C56AFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,9 +160,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEBF3A78ADEA1C6154CE425AD8129EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468E83F4C7104097FA3A4A94583C2544 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08DD0825CBC7D07C6C83F8DDA96FA09B /* Pods-SunriseAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				4BB65F0E6B7FCD617BBECAD41225D8C6 /* Info.plist */,
+				03FF64E07A07850AA4568C47E9333DD5 /* Pods-SunriseAlarm.modulemap */,
+				3447E0F099A60CFC0BCFD08EB626DE4A /* Pods-SunriseAlarm-acknowledgements.markdown */,
+				B3849F4A5EBA609EDEC9AAC90C426247 /* Pods-SunriseAlarm-acknowledgements.plist */,
+				07F63AF62A01639CC2B8FE17072044C5 /* Pods-SunriseAlarm-dummy.m */,
+				606F3013A4FF62BEFE7288FBE52B56D8 /* Pods-SunriseAlarm-frameworks.sh */,
+				23C34A4C1B3BFA71D8E07F2E53A1608C /* Pods-SunriseAlarm-resources.sh */,
+				68522D1765E9E42D6C95392CF9BC388F /* Pods-SunriseAlarm-umbrella.h */,
+				F6FC9A2149C5D1995EB5936DCC283E79 /* Pods-SunriseAlarm.debug.xcconfig */,
+				BBCAFDDB6D3AB43C1C14244B9A79C243 /* Pods-SunriseAlarm.release.xcconfig */,
+			);
+			name = "Pods-SunriseAlarm";
+			path = "Target Support Files/Pods-SunriseAlarm";
+			sourceTree = "<group>";
+		};
+		120BD1798651F7F77ED9B225BDA42F71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC9D024E059F3258DB45BABB34EBC41E /* FontAwesome.swift.bundle */,
+				23460F286C1CA645C51660D9566ADA56 /* FontAwesome_swift.framework */,
+				BD1740DDF4A440D2C801078F90E7D2F1 /* Pods_SunriseAlarm.framework */,
+				3AC0D729241175E0879534019DD99FFC /* Pods_SunriseAlarmTests.framework */,
+				CE149E4B6316DC7731C1DF0BF21ECE25 /* Pods_SunriseAlarmUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,12 +209,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		26158A437457386AC2E99ED679B7D7B6 /* Targets Support Files */ = {
+		1D729893D385EBFD62E128DCEF0A1562 /* Pods-SunriseAlarmUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3C579AF30DC401D5239EFC5CDB845A96 /* Pods-Sunrise Alarm */,
+				ED0286B326277A11F9D9F46F01E06093 /* Info.plist */,
+				FA8523272C314876D203F724E2955EBB /* Pods-SunriseAlarmUITests.modulemap */,
+				514136BDB796E0291122035162526C9C /* Pods-SunriseAlarmUITests-acknowledgements.markdown */,
+				83193EE0EA2A526F146F54CBE8647A30 /* Pods-SunriseAlarmUITests-acknowledgements.plist */,
+				3D2402D60510EF5B448B3E78F8CEB7A3 /* Pods-SunriseAlarmUITests-dummy.m */,
+				DF16F4BBF9767DA44195DC09DCA90BCD /* Pods-SunriseAlarmUITests-frameworks.sh */,
+				6E381A1B5334B44848DDAEEB0DE254CC /* Pods-SunriseAlarmUITests-resources.sh */,
+				D25AF07D086213051392B9CFB7B86ACD /* Pods-SunriseAlarmUITests-umbrella.h */,
+				CC5F81181F517944CB8E28A710880EEA /* Pods-SunriseAlarmUITests.debug.xcconfig */,
+				FE997DB929569BF4A4E8FC1B041526AF /* Pods-SunriseAlarmUITests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-SunriseAlarmUITests";
+			path = "Target Support Files/Pods-SunriseAlarmUITests";
 			sourceTree = "<group>";
 		};
 		3241726CB226B203BCF2E050C88BEFA8 /* Resources */ = {
@@ -135,24 +233,6 @@
 				842F1ACF894FC5CABE6964020A020502 /* FontAwesome.otf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		3C579AF30DC401D5239EFC5CDB845A96 /* Pods-Sunrise Alarm */ = {
-			isa = PBXGroup;
-			children = (
-				0F41CCDFF0C1BE5BA2897054061D27FA /* Info.plist */,
-				977A2D97FE3C5A975DFBEE569B003DD4 /* Pods-Sunrise Alarm.modulemap */,
-				08CAE39FD0255A1537CBBF9CC29D178D /* Pods-Sunrise Alarm-acknowledgements.markdown */,
-				8784E33E5EADFF728D84330797256063 /* Pods-Sunrise Alarm-acknowledgements.plist */,
-				98BB95904A99BEAD325B96855512CF8F /* Pods-Sunrise Alarm-dummy.m */,
-				41D23BDD63AFB7B9243A441037320045 /* Pods-Sunrise Alarm-frameworks.sh */,
-				14138C51681F16A19C0D138D6CACB7DA /* Pods-Sunrise Alarm-resources.sh */,
-				35BD2E70BC5581C0646AEE217A009F1E /* Pods-Sunrise Alarm-umbrella.h */,
-				89090331FC624B4D86B56A96875BFBA9 /* Pods-Sunrise Alarm.debug.xcconfig */,
-				43E601933F1B2D354EEB47577C1A2BB1 /* Pods-Sunrise Alarm.release.xcconfig */,
-			);
-			name = "Pods-Sunrise Alarm";
-			path = "Target Support Files/Pods-Sunrise Alarm";
 			sourceTree = "<group>";
 		};
 		42130267D546BA3104A3541393A7C428 /* Support Files */ = {
@@ -170,24 +250,14 @@
 			path = "../Target Support Files/FontAwesome.swift";
 			sourceTree = "<group>";
 		};
-		465199E3C6853697F57784AE851EAB42 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A01A09FE630011E165457CEB32988C89 /* FontAwesome.swift.bundle */,
-				8CD52A3D3CC9B2E57B5F111C9A352845 /* FontAwesome_swift.framework */,
-				AE51B05910B9B47B4AD42F28481BD887 /* Pods_Sunrise_Alarm.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				942C44BC0350A65832748E78683AF90B /* Pods */,
-				465199E3C6853697F57784AE851EAB42 /* Products */,
-				26158A437457386AC2E99ED679B7D7B6 /* Targets Support Files */,
+				120BD1798651F7F77ED9B225BDA42F71 /* Products */,
+				ADDB109949B39BD8D9057AD1E14CE1CB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +267,34 @@
 				EAFBD7FE9439859E5D7CA56CED27F102 /* FontAwesome.swift */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A619246012FE1C0A8E114917FC6E94FD /* Pods-SunriseAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				C21AE47BDB2BCBD0F414093862490E4B /* Info.plist */,
+				C2B1C3309CABDC1C3D162BB83A49CC50 /* Pods-SunriseAlarmTests.modulemap */,
+				23A7FCD0F84706B6626C8564A58A3E9B /* Pods-SunriseAlarmTests-acknowledgements.markdown */,
+				45C96CBB5BD8B823F9466DE7DCBC72F9 /* Pods-SunriseAlarmTests-acknowledgements.plist */,
+				953F5F49A3D7DB3F26A2547D0B5F6C13 /* Pods-SunriseAlarmTests-dummy.m */,
+				37F76576FC3E5BCCEE65879F6241A35E /* Pods-SunriseAlarmTests-frameworks.sh */,
+				A69071686EE9B6E6750AE1E598E4BB0D /* Pods-SunriseAlarmTests-resources.sh */,
+				83B5391CA059DA3C90B20A77651D3012 /* Pods-SunriseAlarmTests-umbrella.h */,
+				87BE9B32FE638E880888326156997489 /* Pods-SunriseAlarmTests.debug.xcconfig */,
+				C9352B29E1BE25DA4A617D7424A32B7A /* Pods-SunriseAlarmTests.release.xcconfig */,
+			);
+			name = "Pods-SunriseAlarmTests";
+			path = "Target Support Files/Pods-SunriseAlarmTests";
+			sourceTree = "<group>";
+		};
+		ADDB109949B39BD8D9057AD1E14CE1CB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08DD0825CBC7D07C6C83F8DDA96FA09B /* Pods-SunriseAlarm */,
+				A619246012FE1C0A8E114917FC6E94FD /* Pods-SunriseAlarmTests */,
+				1D729893D385EBFD62E128DCEF0A1562 /* Pods-SunriseAlarmUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		EAFBD7FE9439859E5D7CA56CED27F102 /* FontAwesome.swift */ = {
@@ -240,33 +338,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEAE2FD5A5E494D258FF06705314AA2C /* Headers */ = {
+		4BEC686E9AF7F4037660484EA12549F1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				344BCA654E384195780431E0206B524D /* Pods-Sunrise Alarm-umbrella.h in Headers */,
+				D2066406560B4F0536BC7B2C8C6C1B04 /* Pods-SunriseAlarm-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D9E12672A35D74FF67D2EFEE045CFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC68382FEB6E21A99473B68B0F27A7F /* Pods-SunriseAlarmUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4909B04E9A59C1844A7D2BE9C807CB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DED70142A1751A8F01706A719FC439 /* Pods-SunriseAlarmTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		68580933FDE19E4F5EB4F893340A2ACA /* Pods-Sunrise Alarm */ = {
+		124C276E30607776BC90BCAE8478E243 /* Pods-SunriseAlarmTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D36CEFCDBD6540462792EB997D5A40ED /* Build configuration list for PBXNativeTarget "Pods-Sunrise Alarm" */;
+			buildConfigurationList = 801252A0C14D8655C1566E55039EE5A1 /* Build configuration list for PBXNativeTarget "Pods-SunriseAlarmTests" */;
 			buildPhases = (
-				79150033771102A5792CAB66FD0F4EAB /* Sources */,
-				A857F00BA8D0BE74139E68CF585BABEC /* Frameworks */,
-				BEAE2FD5A5E494D258FF06705314AA2C /* Headers */,
+				B8A4C485C9D8EB3F2EC887DFF5C1B211 /* Sources */,
+				4E72CCA7F67067BAD7B59974E0A844E5 /* Frameworks */,
+				C4909B04E9A59C1844A7D2BE9C807CB4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A9AFDB4989EFB5F624B1D5AFCA8CF753 /* PBXTargetDependency */,
+				78E5E74DC47F28B01FDFFC217265C694 /* PBXTargetDependency */,
 			);
-			name = "Pods-Sunrise Alarm";
-			productName = "Pods-Sunrise Alarm";
-			productReference = AE51B05910B9B47B4AD42F28481BD887 /* Pods_Sunrise_Alarm.framework */;
+			name = "Pods-SunriseAlarmTests";
+			productName = "Pods-SunriseAlarmTests";
+			productReference = 3AC0D729241175E0879534019DD99FFC /* Pods_SunriseAlarmTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		194F7A98C4A9C63C619C624FE4EF291E /* Pods-SunriseAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417A328923AF74CC253D80E15D67DE08 /* Build configuration list for PBXNativeTarget "Pods-SunriseAlarm" */;
+			buildPhases = (
+				553ACD5D9F95A71CF4056C4378EDCAC7 /* Sources */,
+				EEBF3A78ADEA1C6154CE425AD8129EC7 /* Frameworks */,
+				4BEC686E9AF7F4037660484EA12549F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27003D165DC7727F6F2252C12F50DDF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SunriseAlarm";
+			productName = "Pods-SunriseAlarm";
+			productReference = BD1740DDF4A440D2C801078F90E7D2F1 /* Pods_SunriseAlarm.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6991F49AED797519343B1F4591001691 /* FontAwesome.swift-FontAwesome.swift */ = {
@@ -283,8 +415,26 @@
 			);
 			name = "FontAwesome.swift-FontAwesome.swift";
 			productName = "FontAwesome.swift-FontAwesome.swift";
-			productReference = A01A09FE630011E165457CEB32988C89 /* FontAwesome.swift.bundle */;
+			productReference = BC9D024E059F3258DB45BABB34EBC41E /* FontAwesome.swift.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		CB233C50667D7701DDCBBD7FD0675C67 /* Pods-SunriseAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4390EBAF8C791B8D2B78F11833597A13 /* Build configuration list for PBXNativeTarget "Pods-SunriseAlarmUITests" */;
+			buildPhases = (
+				F6A3C8FEA864751254DE470EF72C9828 /* Sources */,
+				02086AC726F9FC5916CCABD9962F638C /* Frameworks */,
+				A6D9E12672A35D74FF67D2EFEE045CFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2813607BA65C2E3959EB5356A133029E /* PBXTargetDependency */,
+			);
+			name = "Pods-SunriseAlarmUITests";
+			productName = "Pods-SunriseAlarmUITests";
+			productReference = CE149E4B6316DC7731C1DF0BF21ECE25 /* Pods_SunriseAlarmUITests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		CD11672B6619C297B6AEE3DFB8213C59 /* FontAwesome.swift */ = {
 			isa = PBXNativeTarget;
@@ -302,7 +452,7 @@
 			);
 			name = FontAwesome.swift;
 			productName = FontAwesome.swift;
-			productReference = 8CD52A3D3CC9B2E57B5F111C9A352845 /* FontAwesome_swift.framework */;
+			productReference = 23460F286C1CA645C51660D9566ADA56 /* FontAwesome_swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -322,13 +472,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 465199E3C6853697F57784AE851EAB42 /* Products */;
+			productRefGroup = 120BD1798651F7F77ED9B225BDA42F71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CD11672B6619C297B6AEE3DFB8213C59 /* FontAwesome.swift */,
 				6991F49AED797519343B1F4591001691 /* FontAwesome.swift-FontAwesome.swift */,
-				68580933FDE19E4F5EB4F893340A2ACA /* Pods-Sunrise Alarm */,
+				194F7A98C4A9C63C619C624FE4EF291E /* Pods-SunriseAlarm */,
+				124C276E30607776BC90BCAE8478E243 /* Pods-SunriseAlarmTests */,
+				CB233C50667D7701DDCBBD7FD0675C67 /* Pods-SunriseAlarmUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -371,11 +523,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79150033771102A5792CAB66FD0F4EAB /* Sources */ = {
+		553ACD5D9F95A71CF4056C4378EDCAC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE723DD2D8320176CBD4DC9E60688860 /* Pods-Sunrise Alarm-dummy.m in Sources */,
+				C0D307125D959927AB5164B7F31972B3 /* Pods-SunriseAlarm-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A4C485C9D8EB3F2EC887DFF5C1B211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99969B0F1432DFEC55FB3AEF59FE30A /* Pods-SunriseAlarmTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +543,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A3C8FEA864751254DE470EF72C9828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF9A926E4EEE5C5C22D27B69897C1F9 /* Pods-SunriseAlarmUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,63 +563,28 @@
 			target = 6991F49AED797519343B1F4591001691 /* FontAwesome.swift-FontAwesome.swift */;
 			targetProxy = A1E7ADA9414728070F39599079B02152 /* PBXContainerItemProxy */;
 		};
-		A9AFDB4989EFB5F624B1D5AFCA8CF753 /* PBXTargetDependency */ = {
+		27003D165DC7727F6F2252C12F50DDF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FontAwesome.swift;
 			target = CD11672B6619C297B6AEE3DFB8213C59 /* FontAwesome.swift */;
-			targetProxy = B25AA4A57EA502B55CC76938EEE9B563 /* PBXContainerItemProxy */;
+			targetProxy = C4467B4FC6732624E0CB8AB3ECFF49D5 /* PBXContainerItemProxy */;
+		};
+		2813607BA65C2E3959EB5356A133029E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SunriseAlarm";
+			target = 194F7A98C4A9C63C619C624FE4EF291E /* Pods-SunriseAlarm */;
+			targetProxy = 2F1A9E7DE5910A54DA224BC3F66775D3 /* PBXContainerItemProxy */;
+		};
+		78E5E74DC47F28B01FDFFC217265C694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SunriseAlarm";
+			target = 194F7A98C4A9C63C619C624FE4EF291E /* Pods-SunriseAlarm */;
+			targetProxy = E560DFAB597206EA0CAE028F3AD0C0E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		222A5960BDD29DEB20B10F4A8DFAF46E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E41107ED255B2A9A48DE6215BFFF5809 /* FontAwesome.swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
-				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = FontAwesome.swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		4181C58E1B926984BF5B8C4567FD18EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E41107ED255B2A9A48DE6215BFFF5809 /* FontAwesome.swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
-				PRODUCT_NAME = FontAwesome_swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		49B5A78DBE571998053070754D3695E8 /* Release */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -483,166 +616,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		7620968C8489E406130D4CC1C46DE967 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89090331FC624B4D86B56A96875BFBA9 /* Pods-Sunrise Alarm.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Sunrise Alarm/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Sunrise Alarm/Pods-Sunrise Alarm.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Sunrise_Alarm;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C44AAC01DDA5BBF917A8EEB2532E479D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43E601933F1B2D354EEB47577C1A2BB1 /* Pods-Sunrise Alarm.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Sunrise Alarm/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Sunrise Alarm/Pods-Sunrise Alarm.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Sunrise_Alarm;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D6EE27F3DEF0DCD54A3411368103C46F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E41107ED255B2A9A48DE6215BFFF5809 /* FontAwesome.swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
-				PRODUCT_NAME = FontAwesome_swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DD369323FD85CB26347C0D75C75D837F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -663,16 +637,358 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		222A5960BDD29DEB20B10F4A8DFAF46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41107ED255B2A9A48DE6215BFFF5809 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5E741E65FAE89450DD213B1182DA312F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9352B29E1BE25DA4A617D7424A32B7A /* Pods-SunriseAlarmTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunriseAlarmTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunriseAlarmTests/Pods-SunriseAlarmTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F1DDCA567A82BBBE6E40181FC483E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FC9A2149C5D1995EB5936DCC283E79 /* Pods-SunriseAlarm.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunriseAlarm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunriseAlarm/Pods-SunriseAlarm.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6983BF041B38D4219DE42D4956EE08C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41107ED255B2A9A48DE6215BFFF5809 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesome_swift;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		864F0CE4F179C7849DF08CF8FCF636ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE997DB929569BF4A4E8FC1B041526AF /* Pods-SunriseAlarmUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunriseAlarmUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunriseAlarmUITests/Pods-SunriseAlarmUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B15C55862761E4813597E78F882CD6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5F81181F517944CB8E28A710880EEA /* Pods-SunriseAlarmUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunriseAlarmUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunriseAlarmUITests/Pods-SunriseAlarmUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3A9BB0305AF30A074E3A8157D2A4796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BE9B32FE638E880888326156997489 /* Pods-SunriseAlarmTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunriseAlarmTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunriseAlarmTests/Pods-SunriseAlarmTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC84687AD2FE9A47F94EB3E805E66E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41107ED255B2A9A48DE6215BFFF5809 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesome_swift;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EACD00D0229B9B885D7F0AFF81F3196D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBCAFDDB6D3AB43C1C14244B9A79C243 /* Pods-SunriseAlarm.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunriseAlarm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunriseAlarm/Pods-SunriseAlarm.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
 		};
 		FEE81985885E3F6B115EFBC0EB182EA3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -696,8 +1012,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD369323FD85CB26347C0D75C75D837F /* Debug */,
-				49B5A78DBE571998053070754D3695E8 /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417A328923AF74CC253D80E15D67DE08 /* Build configuration list for PBXNativeTarget "Pods-SunriseAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1DDCA567A82BBBE6E40181FC483E5D /* Debug */,
+				EACD00D0229B9B885D7F0AFF81F3196D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4390EBAF8C791B8D2B78F11833597A13 /* Build configuration list for PBXNativeTarget "Pods-SunriseAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15C55862761E4813597E78F882CD6E5 /* Debug */,
+				864F0CE4F179C7849DF08CF8FCF636ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801252A0C14D8655C1566E55039EE5A1 /* Build configuration list for PBXNativeTarget "Pods-SunriseAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A9BB0305AF30A074E3A8157D2A4796 /* Debug */,
+				5E741E65FAE89450DD213B1182DA312F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -705,8 +1048,8 @@
 		8D647550AC543F36CDA7093F28F22389 /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4181C58E1B926984BF5B8C4567FD18EE /* Debug */,
-				D6EE27F3DEF0DCD54A3411368103C46F /* Release */,
+				6983BF041B38D4219DE42D4956EE08C7 /* Debug */,
+				CC84687AD2FE9A47F94EB3E805E66E80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -716,15 +1059,6 @@
 			buildConfigurations = (
 				222A5960BDD29DEB20B10F4A8DFAF46E /* Debug */,
 				FEE81985885E3F6B115EFBC0EB182EA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D36CEFCDBD6540462792EB997D5A40ED /* Build configuration list for PBXNativeTarget "Pods-Sunrise Alarm" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7620968C8489E406130D4CC1C46DE967 /* Debug */,
-				C44AAC01DDA5BBF917A8EEB2532E479D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

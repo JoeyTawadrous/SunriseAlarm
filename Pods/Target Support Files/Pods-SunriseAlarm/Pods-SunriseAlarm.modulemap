@@ -1,0 +1,6 @@
+framework module Pods_SunriseAlarm {
+  umbrella header "Pods-SunriseAlarm-umbrella.h"
+
+  export *
+  module * { export * }
+}

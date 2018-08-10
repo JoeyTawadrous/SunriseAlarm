@@ -14,7 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Sunrise Alarm.xcscheme</key>
+		<key>Pods-SunriseAlarm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SunriseAlarmTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SunriseAlarmUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
