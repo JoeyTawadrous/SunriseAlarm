@@ -29,7 +29,7 @@ struct Constants {
 		static let APP_ID = "1360309647"
 		static let MAIN_STORYBOARD = "Main"
 		
-		static let LINK_APP_REVIEW = "itms-apps://itunes.apple.com/app/apple-store/id" + Common.APP_ID
+		static let LINK_APP_REVIEW = "itms-apps://itunes.apple.com/app/apple-store/id" + Common.APP_ID + "?action=write-review"
 		static let LINK_FACEBOOK = "https://www.facebook.com/getlearnable"
 		static let LINK_INSTAGRAM = "https://www.instagram.com/learnableapp"
 		static let LINK_IOS_STORE = "https://itunes.apple.com/gb/app/sunrise-alarm-surprise-clock/id1360309647?mt=8"
@@ -46,9 +46,8 @@ struct Constants {
 	struct Strings {
 		// Send Feedback
 		static let EMAIL = "joeytawadrous@gmail.com"
-		static let SEND_FEEDBACK_SUBJECT = "Learnable Feedback for iOS"
-		static let SEND_FEEDBACK_BODY = "Hi Learnable, \n\n Possible feedback you could send us: \n\n - I just wanted to say that you're doing a great job and the app is really helping me learn how to code. I'm going to leave you a positive review / share with my friends now. \n - I have a suggestion for a feature.. \n - I found a bug! \n\nPLEASE REPLACE ABOVE TEXT WITH YOUR OWN FEEDBACK."
-		static let EMAIL_CLOSING = "\n\nThanks again, and have an amazing day!"
+		static let SEND_FEEDBACK_SUBJECT = "Sunrise Alarm Feedback!"
+		static let SEND_FEEDBACK_BODY = "I want to make Sunrise Alarm better. Here are my ideas... \n\n What I like about Sunrise Alarm: \n 1. \n 2. \n 3. \n\n What I don't like about Sunrise Alarm: \n 1. \n 2. \n 3. \n\n"
 		
 		
 		// Share

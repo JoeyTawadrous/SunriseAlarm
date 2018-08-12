@@ -97,9 +97,9 @@ class MainAlarmViewController: UITableViewController {
         // text
         cell!.tag = indexPath.row
         let alarm: Alarm = alarmModel.alarms[indexPath.row]
-        let amAttr: [NSAttributedStringKey : Any] = [NSAttributedStringKey(rawValue: NSAttributedStringKey.font.rawValue) : UIFont.systemFont(ofSize: 20.0)]
+		let amAttr: [NSAttributedStringKey : Any] = [NSAttributedStringKey(rawValue: NSAttributedStringKey.font.rawValue) : UIFont.GothamProMedium(size: 25.0)!]
         let str = NSMutableAttributedString(string: alarm.formattedTime, attributes: amAttr)
-		let timeAttr: [NSAttributedStringKey : Any] = [NSAttributedStringKey(rawValue: NSAttributedStringKey.font.rawValue) : UIFont.systemFont(ofSize: 45.0)]
+		let timeAttr: [NSAttributedStringKey : Any] = [NSAttributedStringKey(rawValue: NSAttributedStringKey.font.rawValue) : UIFont.GothamProMedium(size: 40.0)!]
         str.addAttributes(timeAttr, range: NSMakeRange(0, str.length-2))
         cell!.textLabel?.attributedText = str
         cell!.detailTextLabel?.text = alarm.label + ", " + WeekdaysViewController.repeatText(weekdays: alarm.repeatWeekdays)
