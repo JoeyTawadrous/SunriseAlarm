@@ -75,7 +75,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Alarm" id="dQi-iQ-p46">
-                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="aSU-Te-jrO">
+                        <barButtonItem key="leftBarButtonItem" style="done" id="aSU-Te-jrO">
                             <connections>
                                 <segue destination="XKb-lA-7Db" kind="presentation" identifier="addSegue" id="Okr-Zd-u6D"/>
                             </connections>
@@ -87,6 +87,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="addButton" destination="aSU-Te-jrO" id="HM5-eY-680"/>
                         <outlet property="menuButton" destination="55x-5M-GmR" id="Kp8-6h-SUc"/>
                         <segue destination="XKb-lA-7Db" kind="presentation" identifier="editSegue" id="vZt-5w-FkZ"/>
                     </connections>
@@ -414,7 +415,7 @@
         <!--Settings-->
         <scene sceneID="ogL-dM-VgK">
             <objects>
-                <tableViewController storyboardIdentifier="Settings" id="Ngw-md-xcT" customClass="Settings" customModule="Tasky" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="Settings" id="Ngw-md-xcT" customClass="Settings" customModule="SunriseAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="i8r-uI-PvG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

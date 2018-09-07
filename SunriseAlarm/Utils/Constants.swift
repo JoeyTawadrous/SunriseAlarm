@@ -51,7 +51,7 @@ struct Constants {
 		
 		
 		// Share
-		static let SHARE = "Learn to code in byte-sized lessons anywhere! \n\nWith Learnables course structure, interactive lessons, challenges, tips & feedback, learning to code has never been so easy. \n\nDownload for free now: " + Common.LINK_IOS_STORE
+		static let SHARE = "Learn to code in byte-sized lessons anywhere! \n\nWith Learnables course structure, interactive lessons, challenges, tips & feedback, learning to code has never been so easy. #SunriseAlarm #iOS \n\nDownload for free now: " + Common.LINK_IOS_STORE
 	}
 	
 	

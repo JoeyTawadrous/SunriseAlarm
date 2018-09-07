@@ -99,8 +99,8 @@ class Settings: UITableViewController, UITextFieldDelegate, MFMailComposeViewCon
 		}
 	}
 	
-	private func mailComposeController(controller: MFMailComposeViewController!, didFinishWithResult result: MFMailComposeResult, error: Error!) {
-		dismiss(animated: true, completion: nil)
+	public func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+		controller.dismiss(animated: true, completion: nil)
 	}
 	
 	

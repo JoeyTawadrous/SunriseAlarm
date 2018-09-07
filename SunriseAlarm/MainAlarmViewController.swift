@@ -5,6 +5,7 @@ import FontAwesome_swift
 class MainAlarmViewController: UITableViewController {
 	
 	@IBOutlet var menuButton: UIBarButtonItem!
+	@IBOutlet var addButton: UIBarButtonItem!
    
     var alarmDelegate: AlarmApplicationDelegate = AppDelegate()
     var alarmScheduler: AlarmSchedulerDelegate = Scheduler()
@@ -19,6 +20,9 @@ class MainAlarmViewController: UITableViewController {
 		
 		// Nav bar
 		let attributes = [NSAttributedStringKey.font: UIFont.fontAwesome(ofSize: 21)]
+		addButton.setTitleTextAttributes(attributes, for: .normal)
+		addButton.setTitleTextAttributes(attributes, for: .selected)
+		addButton.title = String.fontAwesomeIcon(name: .plus)
 		menuButton.setTitleTextAttributes(attributes, for: .selected)
 		menuButton.setTitleTextAttributes(attributes, for: .normal)
 		menuButton.title = String.fontAwesomeIcon(name: .bars)
