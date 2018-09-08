@@ -49,7 +49,7 @@ struct Constants {
 	
 	struct Purchases {
 		// Upgrade
-		static let SHARED_SECRET = "5e1830a7afcd4f49afb516046e071828"
+		static let SHARED_SECRET = "ba174f894115439fa3c75b1fa98d8178"
 		static let SUBSCRIPTION_MONTHLY_KEY = "com.joeyt.sunrise.subscription.monthly"
 		static let SUBSCRIPTION_YEARLY_KEY = "com.joeyt.sunrise.subscription.yearly"
 		static let UNLOCK_KEY = "com.joeyt.sunrise.unlock"
