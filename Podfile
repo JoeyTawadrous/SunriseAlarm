@@ -6,16 +6,9 @@ target 'SunriseAlarm' do
   use_frameworks!
 
   # Pods for SunriseAlarm
-  pod 'FontAwesome.swift', '~> 1.3.2'
-
-  target 'SunriseAlarmTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'SunriseAlarmUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  pod 'SCLAlertView'
+  pod 'FontAwesome.swift'
+  pod 'SwiftyStoreKit'
+  pod 'paper-onboarding'
 
 end

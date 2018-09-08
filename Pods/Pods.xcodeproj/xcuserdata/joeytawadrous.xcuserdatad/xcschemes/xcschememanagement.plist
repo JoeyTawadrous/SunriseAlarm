@@ -19,12 +19,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SunriseAlarmTests.xcscheme</key>
+		<key>SCLAlertView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SunriseAlarmUITests.xcscheme</key>
+		<key>SwiftyStoreKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>paper-onboarding.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
