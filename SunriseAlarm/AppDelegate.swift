@@ -51,6 +51,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
 		
         return true
     }
+	
+	func applicationWillEnterForeground(_ application: UIApplication) {
+		//		Purchase.restorePurchases(view: self.inputViewController!, showDialog: false)
+		Purchase.verifyReceiptCheck()
+	}
+	
    
     //receive local notification when app in foreground
     func application(_ application: UIApplication, didReceive notification: UILocalNotification) {
