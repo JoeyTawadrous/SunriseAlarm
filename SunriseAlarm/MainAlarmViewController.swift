@@ -39,9 +39,7 @@ class MainAlarmViewController: UITableViewController {
 	
 	
 	@IBAction func menuButtonPressed(_ sender: AnyObject) {
-		let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-		let settingsView = storyBoard.instantiateViewController(withIdentifier: Constants.Views.SETTINGS) as! Settings
-		self.show(settingsView as UIViewController, sender: settingsView)
+		Utils.presentView(self, viewName: Constants.Views.SETTINGS_NAV_CONTROLLER)
 	}
 	
 	

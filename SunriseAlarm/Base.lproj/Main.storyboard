@@ -883,6 +883,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="backButton" destination="zW5-82-Qe0" id="sc5-3X-3G8"/>
                         <outlet property="changeThemeButtonIcon" destination="Kxm-CV-57f" id="Xcy-eU-oEX"/>
                         <outlet property="facebookButtonIcon" destination="7qA-s8-1Br" id="PfG-jw-Kkt"/>
                         <outlet property="instagramButtonIcon" destination="pdj-1T-bcY" id="j78-dA-5eJ"/>

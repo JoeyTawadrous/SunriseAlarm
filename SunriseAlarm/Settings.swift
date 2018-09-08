@@ -15,6 +15,7 @@ class Settings: UITableViewController, UITextFieldDelegate, MFMailComposeViewCon
 	@IBOutlet var twitterButtonIcon: UIButton!
 	@IBOutlet var facebookButtonIcon: UIButton!
 	@IBOutlet var instagramButtonIcon: UIButton!
+	@IBOutlet var backButton: UIBarButtonItem!
 	
 	
 	
@@ -33,6 +34,7 @@ class Settings: UITableViewController, UITextFieldDelegate, MFMailComposeViewCon
 		
 		// Styling
 		Utils.insertGradientIntoTableView(viewController: self, tableView: tableView)
+		Utils.createFontAwesomeBarButton(button: backButton, icon: .arrowLeft, style: .solid)
 		tableView.separatorColor = UIColor.clear
 	}
 	
