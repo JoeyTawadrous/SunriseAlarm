@@ -37,6 +37,7 @@
 		52C7034E21442B8200AC839F /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7034D21442B8200AC839F /* Themes.swift */; };
 		52C7035221442BA700AC839F /* Upgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7035121442BA700AC839F /* Upgrade.swift */; };
 		52C7035421442D7800AC839F /* Dialogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7035321442D7800AC839F /* Dialogs.swift */; };
+		52C703582144439600AC839F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C703572144439600AC839F /* StoreKit.framework */; };
 		71665CCCDD5FC683F70B5E79 /* Pods_SunriseAlarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438F227719CFB0B54F66ED36 /* Pods_SunriseAlarm.framework */; };
 		7701B7B31E99414800908B6C /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7701B7B21E99414800908B6C /* UIWindow+Extension.swift */; };
 		7732E6131E38A50200C9D9A2 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7732E6121E38A50200C9D9A2 /* Persistable.swift */; };
@@ -113,6 +114,7 @@
 		52C7034D21442B8200AC839F /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
 		52C7035121442BA700AC839F /* Upgrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upgrade.swift; sourceTree = "<group>"; };
 		52C7035321442D7800AC839F /* Dialogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialogs.swift; sourceTree = "<group>"; };
+		52C703572144439600AC839F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		7701B7B21E99414800908B6C /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
 		7732E6121E38A50200C9D9A2 /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		77570F6A1E3EEA75005E2923 /* PropertyReflectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyReflectable.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71665CCCDD5FC683F70B5E79 /* Pods_SunriseAlarm.framework in Frameworks */,
+				52C703582144439600AC839F /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +270,7 @@
 		98E9F584A00D1BB95AEDA546 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52C703572144439600AC839F /* StoreKit.framework */,
 				438F227719CFB0B54F66ED36 /* Pods_SunriseAlarm.framework */,
 				427257CD547760A302088F21 /* Pods_SunriseAlarmTests.framework */,
 				7F58935439D884F2044ACC3C /* Pods_SunriseAlarmUITests.framework */,
@@ -418,6 +422,9 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
 								enabled = 1;
 							};
 						};

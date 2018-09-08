@@ -21,6 +21,10 @@ class Themes: UIViewController, UITableViewDataSource, UITableViewDelegate {
 		tableView.separatorStyle = UITableViewCellSeparatorStyle.none
 	}
 	
+	override var prefersStatusBarHidden: Bool {
+		return true
+	}
+	
 	
 	
 	/* MARK: Button Actions
