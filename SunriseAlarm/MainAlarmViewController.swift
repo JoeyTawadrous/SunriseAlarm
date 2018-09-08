@@ -16,16 +16,11 @@ class MainAlarmViewController: UITableViewController {
         super.viewDidLoad()
         alarmScheduler.checkNotification()
         tableView.allowsSelectionDuringEditing = true
-		Utils.insertGradientIntoTableView(viewController: self, tableView: tableView)
 		
-		// Nav bar
-		let attributes = [NSAttributedStringKey.font: UIFont.fontAwesome(ofSize: 21)]
-		addButton.setTitleTextAttributes(attributes, for: .normal)
-		addButton.setTitleTextAttributes(attributes, for: .selected)
-		addButton.title = String.fontAwesomeIcon(name: .plus)
-		menuButton.setTitleTextAttributes(attributes, for: .selected)
-		menuButton.setTitleTextAttributes(attributes, for: .normal)
-		menuButton.title = String.fontAwesomeIcon(name: .bars)
+		// Styling
+		Utils.createFontAwesomeBarButton(button: addButton, icon: .plus, style: .solid)
+		Utils.createFontAwesomeBarButton(button: menuButton, icon: .bars, style: .solid)
+		Utils.insertGradientIntoTableView(viewController: self, tableView: tableView)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -44,7 +39,7 @@ class MainAlarmViewController: UITableViewController {
 	
 	
 	@IBAction func menuButtonPressed(_ sender: AnyObject) {
-		let storyBoard : UIStoryboard = UIStoryboard(name: Constants.Common.MAIN_STORYBOARD, bundle:nil)
+		let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
 		let settingsView = storyBoard.instantiateViewController(withIdentifier: Constants.Views.SETTINGS) as! Settings
 		self.show(settingsView as UIViewController, sender: settingsView)
 	}
@@ -119,7 +114,7 @@ class MainAlarmViewController: UITableViewController {
             cell!.textLabel?.alpha = 1.0
             cell!.detailTextLabel?.alpha = 1.0
             switchButton.setOn(true, animated: false)
-			switchButton.onTintColor = UIColor(hex: Constants.Colors.MAIN_COLOR_2)
+			switchButton.onTintColor = UIColor(hex: Constants.Purchases.Colors[Constants.Purchases.SUNRISE_THEME]![1])
         }
 		else {
             cell!.textLabel?.alpha = 0.5

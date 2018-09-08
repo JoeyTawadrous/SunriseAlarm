@@ -33,6 +33,10 @@
 		52AF6DBB2056D9B900696CFF /* Party.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52AF6DAC2056D9B800696CFF /* Party.mp3 */; };
 		52AF6DBC2056D9B900696CFF /* Transmission.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52AF6DAD2056D9B800696CFF /* Transmission.mp3 */; };
 		52AF6DBD2056D9B900696CFF /* Chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52AF6DAE2056D9B800696CFF /* Chime.mp3 */; };
+		52C7034821442B3000AC839F /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7034721442B3000AC839F /* Purchase.swift */; };
+		52C7034E21442B8200AC839F /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7034D21442B8200AC839F /* Themes.swift */; };
+		52C7035221442BA700AC839F /* Upgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7035121442BA700AC839F /* Upgrade.swift */; };
+		52C7035421442D7800AC839F /* Dialogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7035321442D7800AC839F /* Dialogs.swift */; };
 		71665CCCDD5FC683F70B5E79 /* Pods_SunriseAlarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438F227719CFB0B54F66ED36 /* Pods_SunriseAlarm.framework */; };
 		7701B7B31E99414800908B6C /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7701B7B21E99414800908B6C /* UIWindow+Extension.swift */; };
 		7732E6131E38A50200C9D9A2 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7732E6121E38A50200C9D9A2 /* Persistable.swift */; };
@@ -105,6 +109,10 @@
 		52AF6DAC2056D9B800696CFF /* Party.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Party.mp3; sourceTree = "<group>"; };
 		52AF6DAD2056D9B800696CFF /* Transmission.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Transmission.mp3; sourceTree = "<group>"; };
 		52AF6DAE2056D9B800696CFF /* Chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chime.mp3; sourceTree = "<group>"; };
+		52C7034721442B3000AC839F /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		52C7034D21442B8200AC839F /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		52C7035121442BA700AC839F /* Upgrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upgrade.swift; sourceTree = "<group>"; };
+		52C7035321442D7800AC839F /* Dialogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialogs.swift; sourceTree = "<group>"; };
 		7701B7B21E99414800908B6C /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
 		7732E6121E38A50200C9D9A2 /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		77570F6A1E3EEA75005E2923 /* PropertyReflectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyReflectable.swift; sourceTree = "<group>"; };
@@ -204,6 +212,16 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		52C7034921442B4100AC839F /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				52C7034721442B3000AC839F /* Purchase.swift */,
+				52C7034D21442B8200AC839F /* Themes.swift */,
+				52C7035121442BA700AC839F /* Upgrade.swift */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
 		770405701EA09FB2005F9379 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				7773A0F71E43276700811A1D /* Constants.swift */,
+				52C7035321442D7800AC839F /* Dialogs.swift */,
 				52814CF8205B0F1D008A68A7 /* Extensions.swift */,
 				52814CFA205B1759008A68A7 /* Utils.swift */,
 			);
@@ -281,6 +300,7 @@
 			children = (
 				9EED786F1AA0F03F00961BC2 /* Resources */,
 				77A857121E42FDAD00971367 /* Utils */,
+				52C7034921442B4100AC839F /* Purchase */,
 				9EED78751AA0F03F00961BC2 /* Main.storyboard */,
 				9EED78781AA0F03F00961BC2 /* Images.xcassets */,
 				9EED78711AA0F03F00961BC2 /* AppDelegate.swift */,
@@ -541,9 +561,11 @@
 				7773A0F81E43276700811A1D /* Constants.swift in Sources */,
 				9E1F30731C49128000C66F79 /* Scheduler.swift in Sources */,
 				9E16062C1C62358F009B2407 /* MediaViewController.swift in Sources */,
+				52C7035421442D7800AC839F /* Dialogs.swift in Sources */,
 				9EED78721AA0F03F00961BC2 /* AppDelegate.swift in Sources */,
 				7773A0FA1E4610B700811A1D /* SegueInfo.swift in Sources */,
 				77B08F9F1EA6552100BECF6C /* NotificationName+Extension.swift in Sources */,
+				52C7034E21442B8200AC839F /* Themes.swift in Sources */,
 				77A8570D1E40D76000971367 /* AlarmApplicationDelegate.swift in Sources */,
 				9EED78941AA1E51700961BC2 /* AlarmModel.swift in Sources */,
 				9E603F591BD7CA6600303E93 /* LabelEditViewController.swift in Sources */,
@@ -552,7 +574,9 @@
 				7732E6131E38A50200C9D9A2 /* Persistable.swift in Sources */,
 				7701B7B31E99414800908B6C /* UIWindow+Extension.swift in Sources */,
 				77A8570F1E41A04600971367 /* AlarmSchedulerDelegate.swift in Sources */,
+				52C7035221442BA700AC839F /* Upgrade.swift in Sources */,
 				52814CF9205B0F1D008A68A7 /* Extensions.swift in Sources */,
+				52C7034821442B3000AC839F /* Purchase.swift in Sources */,
 				77570F6B1E3EEA75005E2923 /* PropertyReflectable.swift in Sources */,
 				9E9BEE071BCF8FF8000CF364 /* WeekdaysViewController.swift in Sources */,
 				524E3022211DEEFF009F7055 /* Settings.swift in Sources */,

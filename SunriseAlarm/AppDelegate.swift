@@ -12,7 +12,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
     let alarmScheduler: AlarmSchedulerDelegate = Scheduler()
     var alarmModel: Alarms = Alarms()
 
+	
+	
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+		
 		// Styling
 		UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
 		UINavigationBar.appearance().shadowImage = UIImage()
@@ -23,6 +26,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
 		]
 		window?.tintColor = UIColor.white
 		
+		
+		// Purchases
+		Purchase.supportStorePurchase()
+		Purchase.completeTransactions()
+		Purchase.verifyReceiptCheck()
+		
+		
+		// Audio
         var error: NSError?
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
@@ -36,7 +47,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
             error = error1
             print("could not active session. err:\(error!.localizedDescription)")
         }
-        
+		
+		
         return true
     }
    
