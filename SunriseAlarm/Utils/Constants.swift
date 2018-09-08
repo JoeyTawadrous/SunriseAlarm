@@ -43,7 +43,7 @@ struct Constants {
 	
 	
 	struct Design {
-		static let LOGO = "AppIcon"
+		static let LOGO = "Logo"
 	}
 	
 	
