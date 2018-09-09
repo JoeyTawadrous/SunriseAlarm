@@ -74,7 +74,7 @@ class MainAlarmViewController: UITableViewController {
 	
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 //        if isEditing {
-            performSegue(withIdentifier: Constants.editSegueIdentifier, sender: SegueInfo(curCellIndex: indexPath.row, isEditMode: true, label: alarmModel.alarms[indexPath.row].label, mediaLabel: alarmModel.alarms[indexPath.row].mediaLabel, mediaID: alarmModel.alarms[indexPath.row].mediaID, repeatWeekdays: alarmModel.alarms[indexPath.row].repeatWeekdays, enabled: alarmModel.alarms[indexPath.row].enabled, snoozeEnabled: alarmModel.alarms[indexPath.row].snoozeEnabled))
+            performSegue(withIdentifier: Constants.editSegueIdentifier, sender: SegueInfo(curCellIndex: indexPath.row, isEditMode: true, label: alarmModel.alarms[indexPath.row].label, selectedSound: alarmModel.alarms[indexPath.row].mediaLabel, mediaID: alarmModel.alarms[indexPath.row].mediaID, repeatWeekdays: alarmModel.alarms[indexPath.row].repeatWeekdays, enabled: alarmModel.alarms[indexPath.row].enabled, snoozeEnabled: alarmModel.alarms[indexPath.row].snoozeEnabled))
 //        }
     }
     
@@ -163,7 +163,7 @@ class MainAlarmViewController: UITableViewController {
         let addEditController = dist.topViewController as! AlarmAddEditViewController
         if segue.identifier == Constants.addSegueIdentifier {
             addEditController.navigationItem.title = "Add Alarm"
-            addEditController.segueInfo = SegueInfo(curCellIndex: alarmModel.count, isEditMode: false, label: "Alarm", mediaLabel: "Bell", mediaID: "", repeatWeekdays: [Date().dayNumberOfWeek()!], enabled: false, snoozeEnabled: false)
+            addEditController.segueInfo = SegueInfo(curCellIndex: alarmModel.count, isEditMode: false, label: "Alarm", selectedSound: "Bell", mediaID: "", repeatWeekdays: [Date().dayNumberOfWeek()!], enabled: false, snoozeEnabled: false)
         }
         else if segue.identifier == Constants.editSegueIdentifier {
             addEditController.navigationItem.title = "Edit Alarm"

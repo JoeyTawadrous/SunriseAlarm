@@ -44,7 +44,7 @@ class AlarmAddEditViewController: UIViewController, UITableViewDelegate, UITable
         tempAlarm.date = date
         tempAlarm.label = segueInfo.label
         tempAlarm.enabled = true
-        tempAlarm.mediaLabel = segueInfo.mediaLabel
+        tempAlarm.mediaLabel = segueInfo.selectedSound
         tempAlarm.mediaID = segueInfo.mediaID
         tempAlarm.snoozeEnabled = snoozeEnabled
         tempAlarm.repeatWeekdays = segueInfo.repeatWeekdays
@@ -115,7 +115,7 @@ class AlarmAddEditViewController: UIViewController, UITableViewDelegate, UITable
             }
             else if indexPath.row == 2 {
                 cell!.textLabel!.text = "Sound"
-                cell!.detailTextLabel!.text = segueInfo.mediaLabel
+                cell!.detailTextLabel!.text = segueInfo.selectedSound
                 cell!.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
             }
 //            else if indexPath.row == 3 {
@@ -197,9 +197,9 @@ class AlarmAddEditViewController: UIViewController, UITableViewDelegate, UITable
         }
         else if segue.identifier == Constants.soundSegueIdentifier {
             //TODO
-            let dist = segue.destination as! MediaViewController
+            let dist = segue.destination as! ChooseSound
             dist.mediaID = segueInfo.mediaID
-            dist.mediaLabel = segueInfo.mediaLabel
+            dist.selectedSound = segueInfo.selectedSound
         }
         else if segue.identifier == Constants.labelSegueIdentifier {
             let dist = segue.destination as! LabelEditViewController
@@ -222,8 +222,8 @@ class AlarmAddEditViewController: UIViewController, UITableViewDelegate, UITable
     }
     
     @IBAction func unwindFromMediaView(_ segue: UIStoryboardSegue) {
-        let src = segue.source as! MediaViewController
-        segueInfo.mediaLabel = src.mediaLabel
+        let src = segue.source as! ChooseSound
+        segueInfo.selectedSound = src.selectedSound
         segueInfo.mediaID = src.mediaID
     }
 }

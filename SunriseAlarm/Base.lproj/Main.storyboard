@@ -322,7 +322,7 @@
         <!--Alarm Sound-->
         <scene sceneID="PpJ-e3-tlu">
             <objects>
-                <tableViewController id="QpM-GR-Mpm" customClass="MediaViewController" customModule="SunriseAlarm" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="QpM-GR-Mpm" customClass="ChooseSound" customModule="SunriseAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="lZ9-bY-kKX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
