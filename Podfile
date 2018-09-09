@@ -9,6 +9,7 @@ target 'SunriseAlarm' do
   pod 'SCLAlertView'
   pod 'FontAwesome.swift'
   pod 'SwiftyStoreKit'
+  pod 'SwiftySound'
   pod 'paper-onboarding'
 
 end

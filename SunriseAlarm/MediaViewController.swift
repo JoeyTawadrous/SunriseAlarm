@@ -102,6 +102,9 @@ class MediaViewController: UITableViewController, MPMediaPickerControllerDelegat
 		else if indexPath.row == 17 {
 			cell!.textLabel!.text = "Wake"
 		}
+		else {
+			cell!.textLabel?.text = ""
+		}
 		
 		if cell!.textLabel!.text == mediaLabel {
 			cell!.accessoryType = UITableViewCellAccessoryType.checkmark
