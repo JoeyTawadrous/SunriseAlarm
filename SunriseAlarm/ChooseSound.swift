@@ -17,6 +17,7 @@ class ChooseSound: UITableViewController {
 	}
 	
 	override func viewWillDisappear(_ animated: Bool) {
+		Sound.stopAll()
 		performSegue(withIdentifier: Constants.soundUnwindIdentifier, sender: self)
 	}
 	
