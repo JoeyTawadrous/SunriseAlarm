@@ -65,6 +65,11 @@ class Purchase {
 	}
 	
 	
+	class func hasUpgraded() -> Bool {
+		return Utils.bool(key: Constants.Defaults.USER_HAS_MONTHLY_SUBSCRIPTION) || Utils.bool(key: Constants.Defaults.USER_HAS_YEARLY_SUBSCRIPTION) || Utils.bool(key: Constants.Defaults.USER_HAS_UNLOCKED_APP)
+	}
+	
+	
 	class func restorePurchases(view: UIViewController, showDialog: Bool) {
 		SwiftyStoreKit.restorePurchases(atomically: true) { results in
 			if results.restoreFailedPurchases.count > 0 {

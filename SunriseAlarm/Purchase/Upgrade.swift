@@ -96,7 +96,8 @@ class Upgrade: UIViewController {
 	/* MARK: Button Actions
 	/////////////////////////////////////////// */
 	@objc func closeButtonPressed() {
-		Utils.presentView(self, viewName: Constants.Views.SETTINGS_NAV_CONTROLLER)
+		Utils.set(key: Constants.Defaults.INTENT_TO_PURCHASE, value: false)
+		self.dismiss(animated: true)
 	}
 	
 	@objc func subscribeMonthlyButtonPressed() {
@@ -150,9 +151,19 @@ extension Upgrade: PaperOnboardingDataSource {
 							   titleFont: titleFont,
 							   descriptionFont: descriptionFont),
 			
-			OnboardingItemInfo(informationImage: UIImage(named: "diamond")!,
+			OnboardingItemInfo(informationImage: UIImage(named: "app")!,
 							   title: Constants.Strings.UPGRADE_SCREEN_THREE_TITLE,
 							   description: Constants.Strings.UPGRADE_SCREEN_THREE_TEXT,
+							   pageIcon: UIImage(named: "transparent")!,
+							   color: UIColor(hex: Constants.Colors.ORANGE),
+							   titleColor: UIColor.white,
+							   descriptionColor: UIColor.white,
+							   titleFont: titleFont,
+							   descriptionFont: descriptionFont),
+			
+			OnboardingItemInfo(informationImage: UIImage(named: "diamond")!,
+							   title: Constants.Strings.UPGRADE_SCREEN_FOUR_TITLE,
+							   description: Constants.Strings.UPGRADE_SCREEN_FOUR_TEXT,
 							   pageIcon: UIImage(named: "transparent")!,
 							   color: UIColor(hex: Constants.Colors.PURPLE),
 							   titleColor: UIColor.white,
@@ -163,6 +174,6 @@ extension Upgrade: PaperOnboardingDataSource {
 	}
 	
 	func onboardingItemsCount() -> Int {
-		return 3
+		return 4
 	}
 }

@@ -22,6 +22,7 @@ struct Constants {
 	struct Colors {
 		static let BLUE = "69CDFC"
 		static let GREEN = "2ecc71"
+		static let ORANGE = "f39c12"
 		static let PURPLE = "B0B1F1"
 		static let PRIMARY_TEXT_GRAY = "5D5D5C"
 	}
@@ -34,11 +35,16 @@ struct Constants {
 	
 	
 	struct Defaults {
-		static let CURRENT_THEME = "CurrentTheme"
-		static let PURCHASED_THEMES = "PurchasedThemes"
+		static let INTENT_TO_PURCHASE = "intentToPurchase"
+		
+		// Upgrade
 		static let USER_HAS_MONTHLY_SUBSCRIPTION = "userHasMonthlySubscription"
 		static let USER_HAS_YEARLY_SUBSCRIPTION = "userHasYearlySubscription"
 		static let USER_HAS_UNLOCKED_APP = "userHasUnlockedApp"
+		
+		// Themes
+		static let CURRENT_THEME = "CurrentTheme"
+		static let PURCHASED_THEMES = "PurchasedThemes"
 	}
 	
 	
@@ -110,11 +116,13 @@ struct Constants {
 		// Purchases: Upgrade Strings
 		static let UPGRADE_SCREEN_TITLE = "Sunrise Alarm Premium"
 		static let UPGRADE_SCREEN_ONE_TITLE = "Unlock Everything"
-		static let UPGRADE_SCREEN_ONE_TEXT = "Gain access to all features, themes & unlockable content."
+		static let UPGRADE_SCREEN_ONE_TEXT = "Gain access to all features, themes, sounds & unlockable content."
 		static let UPGRADE_SCREEN_TWO_TITLE = "Access Themes"
 		static let UPGRADE_SCREEN_TWO_TEXT = "Gain access to our Malibu, Salvation, Nightlight themes & more."
-		static let UPGRADE_SCREEN_THREE_TITLE = "Unlimited Alarms"
-		static let UPGRADE_SCREEN_THREE_TEXT = "Create unlimited alarms & ensure you're never late again."
+		static let UPGRADE_SCREEN_THREE_TITLE = "Premium Sounds"
+		static let UPGRADE_SCREEN_THREE_TEXT = "Gain access to all premium sounds to customize your alarms."
+		static let UPGRADE_SCREEN_FOUR_TITLE = "Unlimited Alarms"
+		static let UPGRADE_SCREEN_FOUR_TEXT = "Create unlimited alarms & ensure you're never late again."
 		static let UPGRADE_SCREENS_MONTHLY_SUBSCRIBE_BUTTON_TITLE = "$1.99 \nmonth"
 		static let UPGRADE_SCREENS_YEARLY_SUBSCRIBE_BUTTON_TITLE = "$4.99 \nyear"
 		static let UPGRADE_SCREENS_UNLOCK_BUTTON_TITLE = "$6.99 \nonce"

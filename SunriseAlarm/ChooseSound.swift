@@ -6,7 +6,7 @@ class ChooseSound: UITableViewController {
 	
 	var mediaID: String!
 	var selectedSound: String!
-	var sounds = ["Bell", "Chime", "Dracula", "Electronica", "Escape", "Funky", "Lollypop", "Oldie", "Party", "Ping", "Police", "Tickle", "Transmission", "Trumpet", "Tugboat", "Ring", "Space", "Wake"]
+	var sounds = [["Bell", false], ["Chime", false], ["Escape", false], ["Oldie", false], ["Ping", false], ["Police", false], ["Tickle", false], ["Dracula", true], ["Electronica", true], ["Funky", true], ["Lollypop", true], ["Party", true], ["Transmission", true], ["Trumpet", true], ["Tugboat", true], ["Ring", true], ["Space", true], ["Wake", true]]
 	
 	
 	
@@ -18,7 +18,9 @@ class ChooseSound: UITableViewController {
 	
 	override func viewWillDisappear(_ animated: Bool) {
 		Sound.stopAll()
-		performSegue(withIdentifier: Constants.soundUnwindIdentifier, sender: self)
+		if !Utils.bool(key: Constants.Defaults.INTENT_TO_PURCHASE) {
+			performSegue(withIdentifier: Constants.soundUnwindIdentifier, sender: self)
+		}
 	}
 	
 	override var prefersStatusBarHidden: Bool {
@@ -41,7 +43,7 @@ class ChooseSound: UITableViewController {
 		var cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
 		if(cell == nil) { cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell") }
 		
-		cell!.textLabel!.text = sounds[indexPath.row]
+		cell!.textLabel!.text = sounds[indexPath.row][0] as? String
 		
 		// Style
 		cell!.backgroundColor = UIColor.clear
@@ -61,21 +63,29 @@ class ChooseSound: UITableViewController {
 	
 	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		let cell = tableView.cellForRow(at: indexPath)
-		selectedSound = cell?.textLabel?.text!
 		
-		// Music
-		Sound.stopAll()
-		Sound.play(file: sounds[indexPath.row], fileExtension: "mp3", numberOfLoops: -1)
-		
-		// Add tick
-		cell?.accessoryType = UITableViewCellAccessoryType.checkmark
-		
-		// Remove tick
-		let cells = tableView.visibleCells
-		for c in cells {
-			let section = tableView.indexPath(for: c)?.section
-			if (section == indexPath.section && c != cell) {
-				c.accessoryType = UITableViewCellAccessoryType.none
+		if (sounds[indexPath.row][1] as? Bool)! && !Purchase.hasUpgraded() { // Premium sound
+			Sound.stopAll()
+			Utils.set(key: Constants.Defaults.INTENT_TO_PURCHASE, value: true)
+			Utils.presentView(self, viewName: Constants.Views.UPGRADE)
+		}
+		else {
+			selectedSound = cell?.textLabel?.text!
+			
+			// Music
+			Sound.stopAll()
+			Sound.play(file: (sounds[indexPath.row][0] as? String)!, fileExtension: "mp3", numberOfLoops: -1)
+			
+			// Add tick
+			cell?.accessoryType = UITableViewCellAccessoryType.checkmark
+			
+			// Remove tick
+			let cells = tableView.visibleCells
+			for c in cells {
+				let section = tableView.indexPath(for: c)?.section
+				if (section == indexPath.section && c != cell) {
+					c.accessoryType = UITableViewCellAccessoryType.none
+				}
 			}
 		}
 	}
