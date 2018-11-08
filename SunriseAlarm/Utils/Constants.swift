@@ -96,6 +96,7 @@ struct Constants {
 		static let LINK_IOS_STORE = "https://itunes.apple.com/gb/app/sunrise-alarm-surprise-clock/id1360309647?mt=8"
 		static let LINK_LEARNABLE_IOS_STORE = "https://itunes.apple.com/gb/app/learnable-learn-to-code-from-scratch-level-up/id1254862243?mt=8"
 		static let LINK_TWITTER = "https://twitter.com/getlearnable"
+		static let LINK_TWITTER_JOEY = "https://twitter.com/joeytawadrous"
 		static let LINK_WEB = "http://www.getlearnable.com"
 		
 		
