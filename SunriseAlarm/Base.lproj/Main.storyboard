@@ -526,7 +526,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLx-Ml-C73">
-                                                    <rect key="frame" x="55" y="6.5" width="310" height="29"/>
+                                                    <rect key="frame" x="55" y="6.5" width="300" height="29"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="14.5"/>
                                                     <state key="normal">
                                                         <string key="title">Have you ever been late for a coffee date? Or just arrived to your meeting a couple of minutes after it started. Missed the first 10 minutes of your movie? Yeah.. it has happened to us all! You're not alone. Alarms  are one of our greatest inventions! However, sometimes we simply wish that we we're on our way just a few minutes earlier.</string>
@@ -540,7 +540,7 @@
                                             <constraints>
                                                 <constraint firstItem="BLx-Ml-C73" firstAttribute="centerY" secondItem="6Ib-AC-Dfs" secondAttribute="centerY" id="Z15-39-sFJ"/>
                                                 <constraint firstItem="BLx-Ml-C73" firstAttribute="leading" secondItem="6Ib-AC-Dfs" secondAttribute="leadingMargin" constant="39" id="gwP-c7-rYx"/>
-                                                <constraint firstItem="BLx-Ml-C73" firstAttribute="centerX" secondItem="6Ib-AC-Dfs" secondAttribute="centerX" constant="22.5" id="wIk-mP-oDz"/>
+                                                <constraint firstItem="BLx-Ml-C73" firstAttribute="centerX" secondItem="6Ib-AC-Dfs" secondAttribute="centerX" constant="17.5" id="wIk-mP-oDz"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
