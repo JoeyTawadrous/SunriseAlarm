@@ -1,5 +1,7 @@
 import UIKit
 import SwiftySound
+import AudioToolbox
+import AVFoundation
 
 
 class ChooseSound: UITableViewController {
@@ -71,6 +73,14 @@ class ChooseSound: UITableViewController {
 		}
 		else {
 			selectedSound = cell?.textLabel?.text!
+			
+			do {
+				try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayAndRecord, with: [.duckOthers, .defaultToSpeaker])
+				try AVAudioSession.sharedInstance().setActive(true)
+				UIApplication.shared.beginReceivingRemoteControlEvents()
+			} catch {
+				NSLog("Audio Session error: \(error)")
+			}
 			
 			// Music
 			Sound.stopAll()

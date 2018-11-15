@@ -32,23 +32,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
 		Purchase.completeTransactions()
 		Purchase.verifyReceiptCheck()
 		
-		
-		// Audio
-        var error: NSError?
-        do {
-            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
-        } catch let error1 as NSError{
-            error = error1
-            print("could not set session. err:\(error!.localizedDescription)")
-        }
-        do {
-            try AVAudioSession.sharedInstance().setActive(true)
-        } catch let error1 as NSError{
-            error = error1
-            print("could not active session. err:\(error!.localizedDescription)")
-        }
-		
-		
         return true
     }
 	
@@ -97,7 +80,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
         storageController.addAction(stopOption)
         window?.visibleViewController?.navigationController?.present(storageController, animated: true, completion: nil)
     }
-    
+	
+	
     //snooze notification handler when app in background
     func application(_ application: UIApplication, handleActionWithIdentifier identifier: String?, for notification: UILocalNotification, completionHandler: @escaping () -> Void) {
         var index: Int = -1
@@ -161,7 +145,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
 	
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-//        audioPlayer?.play()
+        audioPlayer?.play()
+		
+//		do {
+//			try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+//			//print("AVAudioSession Category Playback OK")
+//			do {
+//				try AVAudioSession.sharedInstance().setActive(true)
+//				//print("AVAudioSession is Active")
+//			} catch _ as NSError {
+//				//print(error.localizedDescription)
+//			}
+//		} catch _ as NSError {
+//			//print(error.localizedDescription)
+//		}
+		
+		
+		do {
+			try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayAndRecord, with: [.duckOthers, .defaultToSpeaker])
+			try AVAudioSession.sharedInstance().setActive(true)
+			UIApplication.shared.beginReceivingRemoteControlEvents()
+		} catch {
+			NSLog("Audio Session error: \(error)")
+		}
+		
         alarmScheduler.checkNotification()
     }
 }
