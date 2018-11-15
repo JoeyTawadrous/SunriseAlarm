@@ -75,7 +75,7 @@ class Settings: UITableViewController, UITextFieldDelegate, MFMailComposeViewCon
 	
 	public override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 		if indexPath.row == 0 && indexPath.section == 0 {
-			return 140.0
+			return 165.0
 		}
 		return 44.0
 	}
