@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mRm-tb-2g0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mRm-tb-2g0">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -514,19 +513,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6h-Mw-oEa">
-                                                    <rect key="frame" x="22" y="6.5" width="30" height="29"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
-                                                    <state key="normal">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="aboutButtonPressed" destination="vos-IJ-ckx" eventType="touchUpInside" id="lJp-Bo-D4O"/>
-                                                    </connections>
-                                                </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLx-Ml-C73">
-                                                    <rect key="frame" x="55" y="6.5" width="300" height="29"/>
+                                                    <rect key="frame" x="16" y="8" width="339" height="29"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="14.5"/>
                                                     <state key="normal">
                                                         <string key="title">Have you ever been late for a coffee date? Or just arrived to your meeting a couple of minutes after it started. Missed the first 10 minutes of your movie? Yeah.. it has happened to us all! You're not alone. Alarms  are one of our greatest inventions! However, sometimes we simply wish that we we're on our way just a few minutes earlier.</string>
@@ -539,8 +527,8 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="BLx-Ml-C73" firstAttribute="centerY" secondItem="6Ib-AC-Dfs" secondAttribute="centerY" id="Z15-39-sFJ"/>
-                                                <constraint firstItem="BLx-Ml-C73" firstAttribute="leading" secondItem="6Ib-AC-Dfs" secondAttribute="leadingMargin" constant="39" id="gwP-c7-rYx"/>
-                                                <constraint firstItem="BLx-Ml-C73" firstAttribute="centerX" secondItem="6Ib-AC-Dfs" secondAttribute="centerX" constant="17.5" id="wIk-mP-oDz"/>
+                                                <constraint firstItem="BLx-Ml-C73" firstAttribute="leading" secondItem="6Ib-AC-Dfs" secondAttribute="leadingMargin" id="gwP-c7-rYx"/>
+                                                <constraint firstItem="BLx-Ml-C73" firstAttribute="centerX" secondItem="6Ib-AC-Dfs" secondAttribute="centerX" constant="-2" id="wIk-mP-oDz"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -570,7 +558,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G99-NL-adN">
-                                                    <rect key="frame" x="55" y="7.5" width="310" height="29"/>
+                                                    <rect key="frame" x="55" y="7" width="310" height="30"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
                                                     <state key="normal" title="Upgrade">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -609,7 +597,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2E-5N-ex4">
-                                                    <rect key="frame" x="55" y="7.5" width="310" height="29"/>
+                                                    <rect key="frame" x="55" y="7" width="310" height="30"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
                                                     <state key="normal" title="Change Theme">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -652,7 +640,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ss5-En-i1i">
-                                                    <rect key="frame" x="55" y="7.5" width="310" height="29"/>
+                                                    <rect key="frame" x="55" y="7" width="310" height="30"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
                                                     <state key="normal" title="Learn to Code">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -691,7 +679,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ha-fX-YNa">
-                                                    <rect key="frame" x="55" y="7.5" width="310" height="29"/>
+                                                    <rect key="frame" x="55" y="7" width="310" height="30"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
                                                     <state key="normal" title="Review Sunrise Alarm">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -730,7 +718,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="viG-TX-LKB">
-                                                    <rect key="frame" x="55" y="7.5" width="310" height="29"/>
+                                                    <rect key="frame" x="55" y="7" width="310" height="30"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
                                                     <state key="normal" title="Send Feedback">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -769,7 +757,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PT1-j9-cfQ">
-                                                    <rect key="frame" x="55" y="6.5" width="310" height="29"/>
+                                                    <rect key="frame" x="55" y="7" width="310" height="30"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
                                                     <state key="normal" title="Follow the Developer">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -812,7 +800,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7E-zV-peJ">
-                                                    <rect key="frame" x="55" y="7" width="310" height="29"/>
+                                                    <rect key="frame" x="55" y="7" width="310" height="30"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
                                                     <state key="normal" title="Share the love">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -851,7 +839,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODZ-b8-TsZ">
-                                                    <rect key="frame" x="55" y="7" width="310" height="29"/>
+                                                    <rect key="frame" x="55" y="7" width="310" height="30"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
                                                     <state key="normal" title="Follow us on Twitter">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -890,7 +878,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-AX-mFW">
-                                                    <rect key="frame" x="47" y="7" width="326" height="29"/>
+                                                    <rect key="frame" x="47" y="7" width="326" height="30"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
                                                     <state key="normal" title="Like us on Facebook">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -929,7 +917,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dId-Oj-aC5">
-                                                    <rect key="frame" x="47" y="7" width="326" height="29"/>
+                                                    <rect key="frame" x="47" y="7" width="326" height="30"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
                                                     <state key="normal" title="Heart us on Instagram">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -967,7 +955,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="aboutButton" destination="BLx-Ml-C73" id="NRy-Hy-ycv"/>
-                        <outlet property="aboutButtonIcon" destination="D6h-Mw-oEa" id="TiI-N4-hk0"/>
                         <outlet property="backButton" destination="zW5-82-Qe0" id="sc5-3X-3G8"/>
                         <outlet property="changeThemeButtonIcon" destination="Kxm-CV-57f" id="Xcy-eU-oEX"/>
                         <outlet property="facebookButtonIcon" destination="7qA-s8-1Br" id="PfG-jw-Kkt"/>
@@ -983,7 +970,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Wn-f5-rw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1946" y="392"/>
+            <point key="canvasLocation" x="1944.8" y="391.75412293853077"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UAn-lS-ynH">

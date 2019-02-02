@@ -55,8 +55,7 @@ class AlarmAddEditViewController: UIViewController, UITableViewDelegate, UITable
 		// Take random number of minutes from date
 		// Use arc4random_uniform(n) for a random integer between 0 and n-1
 		let randomNum = arc4random_uniform(11) + 5;
-//		let secretDate = date.addingTimeInterval(TimeInterval(-Int(randomNum) * 60))
-		let secretDate = date.addingTimeInterval(TimeInterval(5))
+		let secretDate = date.addingTimeInterval(TimeInterval(-Int(randomNum) * 60))
 		tempAlarm.secretDate = secretDate
 		
 		
