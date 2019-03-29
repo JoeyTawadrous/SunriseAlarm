@@ -124,7 +124,7 @@ struct Constants {
 		static let UPGRADE_SCREEN_FOUR_TITLE = "Unlimited Alarms"
 		static let UPGRADE_SCREEN_FOUR_TEXT = "Create unlimited alarms & ensure you're never late again."
 		static let UPGRADE_SCREENS_MONTHLY_SUBSCRIBE_BUTTON_TITLE = "$1.99 \nmonth"
-		static let UPGRADE_SCREENS_YEARLY_SUBSCRIBE_BUTTON_TITLE = "$4.99 \nyear"
+		static let UPGRADE_SCREENS_YEARLY_SUBSCRIBE_BUTTON_TITLE = "$3.99 \nyear"
 		static let UPGRADE_SCREENS_UNLOCK_BUTTON_TITLE = "$6.99 \nonce"
 		static let UPGRADE_SCREENS_INFO = "You'll be charged $1.99/month at confirmation of purchase. Your subscription will renew after 1 month unless turned off 24-hours before the end of the subscription period. You can manage this in your App Store settings. For details, see " + Constants.Strings.LINK_WEB
 		
