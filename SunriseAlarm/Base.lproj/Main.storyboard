@@ -514,7 +514,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLx-Ml-C73">
-                                                    <rect key="frame" x="16" y="8" width="339" height="29"/>
+                                                    <rect key="frame" x="16" y="7.5" width="339" height="29"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="14.5"/>
                                                     <state key="normal">
                                                         <string key="title">Have you ever been late for a coffee date? Or just arrived to your meeting a couple of minutes after it started. Missed the first 10 minutes of your movie? Yeah.. it has happened to us all! You're not alone. Alarms  are one of our greatest inventions! However, sometimes we simply wish that we we're on our way just a few minutes earlier.</string>
@@ -859,47 +859,8 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="separatorInset" minX="60" minY="0.0" maxX="0.0" maxY="0.0"/>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" id="D8w-mg-iBz">
-                                        <rect key="frame" x="0.0" y="627" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D8w-mg-iBz" id="NzI-FP-aez">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qA-s8-1Br">
-                                                    <rect key="frame" x="22" y="6.5" width="30" height="29"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
-                                                    <state key="normal">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="facebookButtonPressed" destination="vos-IJ-ckx" eventType="touchUpInside" id="xmi-Pj-cHy"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-AX-mFW">
-                                                    <rect key="frame" x="47" y="7" width="326" height="30"/>
-                                                    <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="15"/>
-                                                    <state key="normal" title="Like us on Facebook">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="facebookButtonPressed" destination="vos-IJ-ckx" eventType="touchUpInside" id="3cw-M4-TjK"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="pQr-AX-mFW" firstAttribute="leading" secondItem="NzI-FP-aez" secondAttribute="leadingMargin" constant="39" id="8Nw-rR-C1P"/>
-                                                <constraint firstItem="pQr-AX-mFW" firstAttribute="centerY" secondItem="NzI-FP-aez" secondAttribute="centerY" id="USc-4J-owZ"/>
-                                                <constraint firstItem="pQr-AX-mFW" firstAttribute="centerX" secondItem="NzI-FP-aez" secondAttribute="centerX" constant="22.5" id="zvp-Yt-G8C"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <inset key="separatorInset" minX="60" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" id="v7l-7h-Xn2">
-                                        <rect key="frame" x="0.0" y="671" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="627" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="v7l-7h-Xn2" id="NUT-xc-pqx">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -957,7 +918,6 @@
                         <outlet property="aboutButton" destination="BLx-Ml-C73" id="NRy-Hy-ycv"/>
                         <outlet property="backButton" destination="zW5-82-Qe0" id="sc5-3X-3G8"/>
                         <outlet property="changeThemeButtonIcon" destination="Kxm-CV-57f" id="Xcy-eU-oEX"/>
-                        <outlet property="facebookButtonIcon" destination="7qA-s8-1Br" id="PfG-jw-Kkt"/>
                         <outlet property="followTheDeveloperButtonIcon" destination="BAj-nn-GzS" id="7MC-1P-rWx"/>
                         <outlet property="instagramButtonIcon" destination="pdj-1T-bcY" id="j78-dA-5eJ"/>
                         <outlet property="learnableiOSAppButtonIcon" destination="YJ9-DL-j8Q" id="y07-TI-nqe"/>
