@@ -63,7 +63,7 @@ extension Alarm {
 
 //This can be considered as a viewModel
 class Alarms: Persistable {
-    let ud: UserDefaults = UserDefaults.standard
+    let ud: UserDefaults = UserDefaults(suiteName: Constants.AppGroup.NAME)!
     let persistKey: String = "myAlarmKey"
     var alarms: [Alarm] = [] {
         //observer, sync with UserDefaults
@@ -87,7 +87,8 @@ class Alarms: Persistable {
     
     func unpersist() {
         for key in ud.dictionaryRepresentation().keys {
-            UserDefaults.standard.removeObject(forKey: key.description)
+            let rud: UserDefaults = UserDefaults(suiteName: Constants.AppGroup.NAME)!
+            rud.removeObject(forKey: key.description)
         }
     }
     
@@ -97,7 +98,8 @@ class Alarms: Persistable {
     
     //helper, get all alarms from Userdefaults
     private func getAlarms() -> [Alarm] {
-        let array = UserDefaults.standard.array(forKey: persistKey)
+        let gud: UserDefaults = UserDefaults(suiteName: Constants.AppGroup.NAME)!
+        let array = gud.array(forKey: persistKey)
         guard let alarmArray = array else{
             return [Alarm]()
         }

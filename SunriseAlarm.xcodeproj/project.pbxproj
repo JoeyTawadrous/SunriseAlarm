@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186C9F5346B0C9D72769D71E /* Pods_Sunrise_Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447E44445EE51D3C51A284C /* Pods_Sunrise_Alarm.framework */; };
+		3A11F4D509F41602A8B728D7 /* Pods_SunriseAlarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38E7637227EB189003B904F /* Pods_SunriseAlarm.framework */; };
 		524E3022211DEEFF009F7055 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E3021211DEEFF009F7055 /* Settings.swift */; };
 		524E3031211E2D11009F7055 /* GothamProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524E302D211E2D03009F7055 /* GothamProMedium.ttf */; };
 		524E3032211E2D11009F7055 /* GothamProBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524E302E211E2D06009F7055 /* GothamProBlack.ttf */; };
@@ -59,6 +61,23 @@
 		9EED78941AA1E51700961BC2 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EED78931AA1E51700961BC2 /* AlarmModel.swift */; };
 		9EED789A1AA36C7900961BC2 /* AlarmAddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EED78991AA36C7900961BC2 /* AlarmAddEditViewController.swift */; };
 		9EEEC58C1BC641BF00459CF7 /* MainAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEEC58B1BC641BF00459CF7 /* MainAlarmViewController.swift */; };
+		E38E7618227DFC8A003B904F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38E7617227DFC8A003B904F /* NotificationCenter.framework */; };
+		E38E761B227DFC8A003B904F /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E761A227DFC8A003B904F /* TodayViewController.swift */; };
+		E38E761E227DFC8A003B904F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38E761C227DFC8A003B904F /* MainInterface.storyboard */; };
+		E38E7622227DFC8A003B904F /* Sunrise Alarm.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E38E7616227DFC89003B904F /* Sunrise Alarm.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E38E762B227EAA15003B904F /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EED78931AA1E51700961BC2 /* AlarmModel.swift */; };
+		E38E762C227EAE83003B904F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7773A0F71E43276700811A1D /* Constants.swift */; };
+		E38E762E227EAF43003B904F /* WeekdaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BEE061BCF8FF8000CF364 /* WeekdaysViewController.swift */; };
+		E38E762F227EB014003B904F /* AlarmSchedulerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A8570E1E41A04600971367 /* AlarmSchedulerDelegate.swift */; };
+		E38E7632227EB067003B904F /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7732E6121E38A50200C9D9A2 /* Persistable.swift */; };
+		E38E7634227EB15E003B904F /* PropertyReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77570F6A1E3EEA75005E2923 /* PropertyReflectable.swift */; };
+		E38E7635227EB163003B904F /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F30721C49128000C66F79 /* Scheduler.swift */; };
+		E38E7636227EB166003B904F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52814CF8205B0F1D008A68A7 /* Extensions.swift */; };
+		E38E7639227EB1B4003B904F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52814CFA205B1759008A68A7 /* Utils.swift */; };
+		E38E763A227EB76B003B904F /* GothamProBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524E302E211E2D06009F7055 /* GothamProBlack.ttf */; };
+		E38E763B227EB76B003B904F /* GothamProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524E3030211E2D0B009F7055 /* GothamProBold.ttf */; };
+		E38E763C227EB76B003B904F /* GothamProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524E302D211E2D03009F7055 /* GothamProMedium.ttf */; };
+		E38E763D227EB76B003B904F /* GothamProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524E302F211E2D07009F7055 /* GothamProRegular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,9 +95,31 @@
 			remoteGlobalIDString = 9EED786B1AA0F03F00961BC2;
 			remoteInfo = WeatherAlarm;
 		};
+		E38E7620227DFC8A003B904F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EED78641AA0F03F00961BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E38E7615227DFC89003B904F;
+			remoteInfo = "Sunrise Alarm";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E38E7626227DFC8A003B904F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E38E7622227DFC8A003B904F /* Sunrise Alarm.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0447E44445EE51D3C51A284C /* Pods_Sunrise_Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunrise_Alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF329F54A58D8C6D762BDBD /* Pods-SunriseAlarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunriseAlarm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunriseAlarm/Pods-SunriseAlarm.debug.xcconfig"; sourceTree = "<group>"; };
 		427257CD547760A302088F21 /* Pods_SunriseAlarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunriseAlarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		438F227719CFB0B54F66ED36 /* Pods_SunriseAlarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunriseAlarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +156,7 @@
 		52C7035121442BA700AC839F /* Upgrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upgrade.swift; sourceTree = "<group>"; };
 		52C7035321442D7800AC839F /* Dialogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialogs.swift; sourceTree = "<group>"; };
 		52C703572144439600AC839F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		55E5010C086CB4396F1148E2 /* Pods-Sunrise Alarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunrise Alarm.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sunrise Alarm/Pods-Sunrise Alarm.release.xcconfig"; sourceTree = "<group>"; };
 		7701B7B21E99414800908B6C /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
 		7732E6121E38A50200C9D9A2 /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		77570F6A1E3EEA75005E2923 /* PropertyReflectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyReflectable.swift; sourceTree = "<group>"; };
@@ -126,6 +168,7 @@
 		7F58935439D884F2044ACC3C /* Pods_SunriseAlarmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunriseAlarmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E16062B1C62358F009B2407 /* ChooseSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseSound.swift; sourceTree = "<group>"; };
 		9E1F30721C49128000C66F79 /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		9E2756DFF21E05ADC73B93D1 /* Pods-Sunrise Alarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunrise Alarm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sunrise Alarm/Pods-Sunrise Alarm.debug.xcconfig"; sourceTree = "<group>"; };
 		9E3B062E1BB8347000453456 /* Bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bell.mp3; sourceTree = "<group>"; };
 		9E603F581BD7CA6600303E93 /* LabelEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelEditViewController.swift; sourceTree = "<group>"; };
 		9E92445A1C690A8D00724DFA /* Tickle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tickle.mp3; sourceTree = "<group>"; };
@@ -140,6 +183,14 @@
 		9EED78991AA36C7900961BC2 /* AlarmAddEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmAddEditViewController.swift; sourceTree = "<group>"; };
 		9EEEC58B1BC641BF00459CF7 /* MainAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAlarmViewController.swift; sourceTree = "<group>"; };
 		D56E1236B5A300BF9BB6205C /* Pods-SunriseAlarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunriseAlarm.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunriseAlarm/Pods-SunriseAlarm.release.xcconfig"; sourceTree = "<group>"; };
+		E38E7611227DFB5C003B904F /* SunriseAlarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SunriseAlarm.entitlements; sourceTree = "<group>"; };
+		E38E7616227DFC89003B904F /* Sunrise Alarm.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sunrise Alarm.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38E7617227DFC8A003B904F /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		E38E761A227DFC8A003B904F /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		E38E761D227DFC8A003B904F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		E38E761F227DFC8A003B904F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38E7627227DFCB2003B904F /* Sunrise Alarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sunrise Alarm.entitlements"; sourceTree = "<group>"; };
+		E38E7637227EB189003B904F /* Pods_SunriseAlarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SunriseAlarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +207,7 @@
 			files = (
 				71665CCCDD5FC683F70B5E79 /* Pods_SunriseAlarm.framework in Frameworks */,
 				52C703582144439600AC839F /* StoreKit.framework in Frameworks */,
+				3A11F4D509F41602A8B728D7 /* Pods_SunriseAlarm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +215,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38E7613227DFC89003B904F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38E7618227DFC8A003B904F /* NotificationCenter.framework in Frameworks */,
+				186C9F5346B0C9D72769D71E /* Pods_Sunrise_Alarm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +331,13 @@
 		98E9F584A00D1BB95AEDA546 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E38E7637227EB189003B904F /* Pods_SunriseAlarm.framework */,
 				52C703572144439600AC839F /* StoreKit.framework */,
 				438F227719CFB0B54F66ED36 /* Pods_SunriseAlarm.framework */,
 				427257CD547760A302088F21 /* Pods_SunriseAlarmTests.framework */,
 				7F58935439D884F2044ACC3C /* Pods_SunriseAlarmUITests.framework */,
+				E38E7617227DFC8A003B904F /* NotificationCenter.framework */,
+				0447E44445EE51D3C51A284C /* Pods_Sunrise_Alarm.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -281,6 +345,7 @@
 		9EED78631AA0F03F00961BC2 = {
 			isa = PBXGroup;
 			children = (
+				E38E7619227DFC8A003B904F /* Sunrise Alarm */,
 				98E9F584A00D1BB95AEDA546 /* Frameworks */,
 				9EED786E1AA0F03F00961BC2 /* SunriseAlarm */,
 				C2C9FAEC40B34BCF3F59FD3A /* Pods */,
@@ -295,6 +360,7 @@
 				9EED786C1AA0F03F00961BC2 /* SunriseAlarm.app */,
 				9EED78811AA0F03F00961BC2 /* SunriseAlarmTests.xctest */,
 				52814D0A205C1946008A68A7 /* SunriseAlarmUITests.xctest */,
+				E38E7616227DFC89003B904F /* Sunrise Alarm.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -302,6 +368,7 @@
 		9EED786E1AA0F03F00961BC2 /* SunriseAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				E38E7611227DFB5C003B904F /* SunriseAlarm.entitlements */,
 				9EED786F1AA0F03F00961BC2 /* Resources */,
 				77A857121E42FDAD00971367 /* Utils */,
 				52C7034921442B4100AC839F /* Purchase */,
@@ -336,8 +403,21 @@
 			children = (
 				0CF329F54A58D8C6D762BDBD /* Pods-SunriseAlarm.debug.xcconfig */,
 				D56E1236B5A300BF9BB6205C /* Pods-SunriseAlarm.release.xcconfig */,
+				9E2756DFF21E05ADC73B93D1 /* Pods-Sunrise Alarm.debug.xcconfig */,
+				55E5010C086CB4396F1148E2 /* Pods-Sunrise Alarm.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E38E7619227DFC8A003B904F /* Sunrise Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				E38E7627227DFCB2003B904F /* Sunrise Alarm.entitlements */,
+				E38E761A227DFC8A003B904F /* TodayViewController.swift */,
+				E38E761C227DFC8A003B904F /* MainInterface.storyboard */,
+				E38E761F227DFC8A003B904F /* Info.plist */,
+			);
+			path = "Sunrise Alarm";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,10 +450,12 @@
 				9EED78691AA0F03F00961BC2 /* Frameworks */,
 				9EED786A1AA0F03F00961BC2 /* Resources */,
 				441F3DB8B2B0013830762EF4 /* [CP] Embed Pods Frameworks */,
+				E38E7626227DFC8A003B904F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E38E7621227DFC8A003B904F /* PBXTargetDependency */,
 			);
 			name = SunriseAlarm;
 			productName = WeatherAlarm;
@@ -398,6 +480,24 @@
 			productReference = 9EED78811AA0F03F00961BC2 /* SunriseAlarmTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E38E7615227DFC89003B904F /* Sunrise Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38E7623227DFC8A003B904F /* Build configuration list for PBXNativeTarget "Sunrise Alarm" */;
+			buildPhases = (
+				DD18998BA3E0F32B88F11A47 /* [CP] Check Pods Manifest.lock */,
+				E38E7612227DFC89003B904F /* Sources */,
+				E38E7613227DFC89003B904F /* Frameworks */,
+				E38E7614227DFC89003B904F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sunrise Alarm";
+			productName = "Sunrise Alarm";
+			productReference = E38E7616227DFC89003B904F /* Sunrise Alarm.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -405,7 +505,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0720;
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = LongGames;
 				TargetAttributes = {
@@ -421,6 +521,9 @@
 						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
@@ -431,8 +534,19 @@
 					};
 					9EED78801AA0F03F00961BC2 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = P5Z7RL76WF;
 						LastSwiftMigration = 0910;
 						TestTargetID = 9EED786B1AA0F03F00961BC2;
+					};
+					E38E7615227DFC89003B904F = {
+						CreatedOnToolsVersion = 10.2;
+						DevelopmentTeam = P5Z7RL76WF;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -441,6 +555,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -452,6 +567,7 @@
 				9EED786B1AA0F03F00961BC2 /* SunriseAlarm */,
 				9EED78801AA0F03F00961BC2 /* SunriseAlarmTests */,
 				52814D09205C1946008A68A7 /* SunriseAlarmUITests */,
+				E38E7615227DFC89003B904F /* Sunrise Alarm */,
 			);
 		};
 /* End PBXProject section */
@@ -503,6 +619,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E38E7614227DFC89003B904F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38E763D227EB76B003B904F /* GothamProRegular.ttf in Resources */,
+				E38E763A227EB76B003B904F /* GothamProBlack.ttf in Resources */,
+				E38E763C227EB76B003B904F /* GothamProMedium.ttf in Resources */,
+				E38E761E227DFC8A003B904F /* MainInterface.storyboard in Resources */,
+				E38E763B227EB76B003B904F /* GothamProBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -530,7 +658,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SunriseAlarm/Pods-SunriseAlarm-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SunriseAlarm/Pods-SunriseAlarm-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
@@ -547,7 +675,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunriseAlarm/Pods-SunriseAlarm-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SunriseAlarm/Pods-SunriseAlarm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD18998BA3E0F32B88F11A47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sunrise Alarm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -599,6 +749,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E38E7612227DFC89003B904F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38E7632227EB067003B904F /* Persistable.swift in Sources */,
+				E38E7636227EB166003B904F /* Extensions.swift in Sources */,
+				E38E7635227EB163003B904F /* Scheduler.swift in Sources */,
+				E38E761B227DFC8A003B904F /* TodayViewController.swift in Sources */,
+				E38E762E227EAF43003B904F /* WeekdaysViewController.swift in Sources */,
+				E38E7639227EB1B4003B904F /* Utils.swift in Sources */,
+				E38E762B227EAA15003B904F /* AlarmModel.swift in Sources */,
+				E38E762C227EAE83003B904F /* Constants.swift in Sources */,
+				E38E762F227EB014003B904F /* AlarmSchedulerDelegate.swift in Sources */,
+				E38E7634227EB15E003B904F /* PropertyReflectable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -612,6 +779,11 @@
 			target = 9EED786B1AA0F03F00961BC2 /* SunriseAlarm */;
 			targetProxy = 9EED78821AA0F03F00961BC2 /* PBXContainerItemProxy */;
 		};
+		E38E7621227DFC8A003B904F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E38E7615227DFC89003B904F /* Sunrise Alarm */;
+			targetProxy = E38E7620227DFC8A003B904F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -622,6 +794,14 @@
 			);
 			name = Main.storyboard;
 			path = .;
+			sourceTree = "<group>";
+		};
+		E38E761C227DFC8A003B904F /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E38E761D227DFC8A003B904F /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -721,7 +901,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -767,7 +947,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -780,12 +960,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CF329F54A58D8C6D762BDBD /* Pods-SunriseAlarm.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SunriseAlarm/SunriseAlarm.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P5Z7RL76WF;
 				INFOPLIST_FILE = "$(SRCROOT)/SunriseAlarm/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joeyt.sunriseAlarm;
 				PRODUCT_NAME = SunriseAlarm;
@@ -800,12 +983,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D56E1236B5A300BF9BB6205C /* Pods-SunriseAlarm.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SunriseAlarm/SunriseAlarm.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P5Z7RL76WF;
 				INFOPLIST_FILE = "$(SRCROOT)/SunriseAlarm/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joeyt.sunriseAlarm;
 				PRODUCT_NAME = SunriseAlarm;
@@ -820,6 +1006,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P5Z7RL76WF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -842,6 +1029,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P5Z7RL76WF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -853,6 +1041,71 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunriseAlarm.app/SunriseAlarm";
+			};
+			name = Release;
+		};
+		E38E7624227DFC8A003B904F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2756DFF21E05ADC73B93D1 /* Pods-Sunrise Alarm.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Sunrise Alarm/Sunrise Alarm.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P5Z7RL76WF;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Sunrise Alarm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyt.sunriseAlarm.sunriseAlarmWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E38E7625227DFC8A003B904F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E5010C086CB4396F1148E2 /* Pods-Sunrise Alarm.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Sunrise Alarm/Sunrise Alarm.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P5Z7RL76WF;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Sunrise Alarm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyt.sunriseAlarm.sunriseAlarmWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -891,6 +1144,15 @@
 			buildConfigurations = (
 				9EED788F1AA0F03F00961BC2 /* Debug */,
 				9EED78901AA0F03F00961BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38E7623227DFC8A003B904F /* Build configuration list for PBXNativeTarget "Sunrise Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38E7624227DFC8A003B904F /* Debug */,
+				E38E7625227DFC8A003B904F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

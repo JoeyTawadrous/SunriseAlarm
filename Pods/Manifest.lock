@@ -13,7 +13,7 @@ DEPENDENCIES:
   - SwiftyStoreKit
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - FontAwesome.swift
     - paper-onboarding
     - SCLAlertView
@@ -27,6 +27,6 @@ SPEC CHECKSUMS:
   SwiftySound: b9c3370956fd4ed65ed79d45563070077a50a2cd
   SwiftyStoreKit: 9ebd15971e28aa2989825fe8bc092eb5f75dd0b2
 
-PODFILE CHECKSUM: 496f8ac2a87393b5249639dc47b43b8787074402
+PODFILE CHECKSUM: 4e0fd35014a2cdfe3f98eaf848e3b8d2cc827342
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.6.1

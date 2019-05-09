@@ -119,35 +119,37 @@ class Scheduler : AlarmSchedulerDelegate
     }
     
     internal func setNotificationWithDate(_ date: Date, onWeekdaysForNotify weekdays:[Int], snoozeEnabled:Bool, onSnooze: Bool, soundName: String, index: Int) {
-        let AlarmNotification: UILocalNotification = UILocalNotification()
-        AlarmNotification.alertBody = alarmModel.alarms[index].label
-        AlarmNotification.alertAction = "Open App"
-        AlarmNotification.category = "myAlarmCategory"
-        AlarmNotification.soundName = soundName + ".mp3"
-        AlarmNotification.timeZone = TimeZone.current
-        let repeating: Bool = !weekdays.isEmpty
-        AlarmNotification.userInfo = ["snooze" : snoozeEnabled, "index": index, "soundName": soundName, "repeating" : repeating]
-        //repeat weekly if repeat weekdays are selected
-        //no repeat with snooze notification
-        if !weekdays.isEmpty && !onSnooze{
-            AlarmNotification.repeatInterval = NSCalendar.Unit.weekOfYear
-        }
-		
-        let datesForNotification = correctDate(date, onWeekdaysForNotify:weekdays)
-        
-        syncAlarmModel()
-        for d in datesForNotification {
-            if onSnooze {
-                alarmModel.alarms[index].secretDate = Scheduler.correctSecondComponent(date: alarmModel.alarms[index].secretDate)
+        if alarmModel.alarms.count > 0 {
+            
+            let AlarmNotification: UILocalNotification = UILocalNotification()
+            AlarmNotification.alertBody = alarmModel.alarms[index].label
+            AlarmNotification.alertAction = "Open App"
+            AlarmNotification.category = "myAlarmCategory"
+            AlarmNotification.soundName = soundName + ".mp3"
+            AlarmNotification.timeZone = TimeZone.current
+            let repeating: Bool = !weekdays.isEmpty
+            AlarmNotification.userInfo = ["snooze" : snoozeEnabled, "index": index, "soundName": soundName, "repeating" : repeating]
+            //repeat weekly if repeat weekdays are selected
+            //no repeat with snooze notification
+            if !weekdays.isEmpty && !onSnooze{
+                AlarmNotification.repeatInterval = NSCalendar.Unit.weekOfYear
             }
-            else {
-                alarmModel.alarms[index].secretDate = d
+            
+            let datesForNotification = correctDate(date, onWeekdaysForNotify:weekdays)
+            
+            syncAlarmModel()
+            for d in datesForNotification {
+                if onSnooze {
+                    alarmModel.alarms[index].secretDate = Scheduler.correctSecondComponent(date: alarmModel.alarms[index].secretDate)
+                }
+                else {
+                    alarmModel.alarms[index].secretDate = d
+                }
+                AlarmNotification.fireDate = d
+                UIApplication.shared.scheduleLocalNotification(AlarmNotification)
             }
-            AlarmNotification.fireDate = d
-            UIApplication.shared.scheduleLocalNotification(AlarmNotification)
+            setupNotificationSettings()
         }
-        setupNotificationSettings()
-        
     }
     
     func setNotificationForSnooze(snoozeMinute: Int, soundName: String, index: Int) {

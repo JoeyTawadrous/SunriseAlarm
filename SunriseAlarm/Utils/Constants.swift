@@ -33,6 +33,9 @@ struct Constants {
 		static let APP_NAME = "Sunrise Alarm"
 	}
 	
+    struct AppGroup {
+        static let NAME = "group.com.joeyt.sunriseAlarm"
+    }
 	
 	struct Defaults {
 		static let INTENT_TO_PURCHASE = "intentToPurchase"

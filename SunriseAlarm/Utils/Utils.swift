@@ -117,14 +117,14 @@ class Utils {
 		
 		// Anything you want to exclude
 		activityViewController.excludedActivityTypes = [
-			UIActivityType.postToWeibo,
-			UIActivityType.print,
-			UIActivityType.assignToContact,
-			UIActivityType.saveToCameraRoll,
-			UIActivityType.addToReadingList,
-			UIActivityType.postToFlickr,
-			UIActivityType.postToVimeo,
-			UIActivityType.postToTencentWeibo
+            UIActivity.ActivityType.postToWeibo,
+            UIActivity.ActivityType.print,
+            UIActivity.ActivityType.assignToContact,
+            UIActivity.ActivityType.saveToCameraRoll,
+            UIActivity.ActivityType.addToReadingList,
+            UIActivity.ActivityType.postToFlickr,
+            UIActivity.ActivityType.postToVimeo,
+            UIActivity.ActivityType.postToTencentWeibo
 		]
 		
 		viewController.present(activityViewController, animated: true, completion: nil)
@@ -149,7 +149,7 @@ class Utils {
 	}
 	
 	class func createFontAwesomeBarButton(button: UIBarButtonItem, icon: FontAwesome, style: FontAwesomeStyle) {
-		var attributes = [NSAttributedStringKey : Any]()
+        var attributes = [NSAttributedString.Key : Any]()
 		attributes = [.font: UIFont.fontAwesome(ofSize: 21, style: style)]
 		button.setTitleTextAttributes(attributes, for: .normal)
 		button.setTitleTextAttributes(attributes, for: .selected)
